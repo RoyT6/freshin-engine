@@ -1,0 +1,15 @@
+{
+  "processed_files": [
+    "fresh_data_20260115_080324.json",
+    "disney_plus_20260115_080324.json",
+    "flixpatrol_20260115_080324.json",
+    "twitter_trends_20260115_080324.json",
+    "reuters_20260115_080324.json",
+    "cranberry_fresh_20260115_080324.parquet",
+    "tmdb_20260115_080324.json",
+    "seeking_alpha_20260115_080324.json",
+    "streaming_availability_20260115_080324.json",
+    "imdb_20260115_080324.json"
+  ],
+  "last_run": "2026-01-15T14:58:53.468974"
+}

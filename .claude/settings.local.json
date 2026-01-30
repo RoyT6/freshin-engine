@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(wsl:*)",
+      "Bash(cudf:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(nvidia-smi:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(grep:*)",
+      "Bash(awk:*)",
+      "Bash(test:*)",
+      "Bash(./run_gpu.sh:*)",
+      "Bash(md5sum:*)",
+      "Bash(sha256sum:*)"
+    ],
+    "deny": [
+      "Bash(pd.read_parquet:*)",
+      "Bash(tree_method='hist':*)",
+      "Bash(n_estimators < 1350:*)"
+    ],
+    "ask": []
+  },
+  "algo_95_2_compliance": {
+    "gpu_mandatory": true,
+    "min_trees": 1350,
+    "valid_r2_range": [0.30, 0.90],
+    "valid_mape_range": [0.05, 0.40],
+    "fail_closed": true,
+    "audit_required": true
+  }
+}

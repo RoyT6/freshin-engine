@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SCHIG version="1.0" created="2026-01-13">
+  <Configuration>
+    <OutputDirectory>C:\Users\RoyT6\Downloads\Fresh In!</OutputDirectory>
+    <LogFile>collection_log.txt</LogFile>
+    <ScheduledTime>02:00</ScheduledTime>
+    <RetentionDays>30</RetentionDays>
+    <MaxRetries>5</MaxRetries>
+    <RateLimitDelay>0.5</RateLimitDelay>
+  </Configuration>
+  <Schedule>
+    <Enabled>true</Enabled>
+    <Frequency>Daily</Frequency>
+    <StartTime>02:00:00</StartTime>
+    <TimeZone>America/New_York</TimeZone>
+  </Schedule>
+  <APIs>
+    <API name="TMDB" priority="1" category="metadata">
+      <Host>api.themoviedb.org</Host>
+      <Status>Active</Status>
+    </API>
+    <API name="FlixPatrol" priority="1" category="rankings">
+      <Host>api.flixpatrol.com</Host>
+      <Status>Active</Status>
+    </API>
+    <API name="StreamingAvailability" priority="1" category="availability">
+      <Host>streaming-availability.p.rapidapi.com</Host>
+      <Status>Active</Status>
+    </API>
+    <API name="IMDB" priority="2" category="metadata">
+      <Host>imdb-api17.p.rapidapi.com</Host>
+      <Status>Active</Status>
+    </API>
+    <API name="RottenTomatoes" priority="2" category="ratings">
+      <Host>rottentomato.p.rapidapi.com</Host>
+      <Status>Active</Status>
+    </API>
+    <API name="HBOMax" priority="2" category="platform">
+      <Host>hbo-max-movies-and-tv-shows-api-by-apirobots.p.rapidapi.com</Host>
+      <Status>Active</Status>
+    </API>
+    <API name="DisneyPlus" priority="2" category="platform">
+      <Host>disney-plus-top-movies-and-tv-shows-api-by-apirobots.p.rapidapi.com</Host>
+      <Status>Active</Status>
+    </API>
+    <API name="SeekingAlpha" priority="3" category="financial">
+      <Host>seeking-alpha.p.rapidapi.com</Host>
+      <Status>Active</Status>
+    </API>
+    <API name="TwitterTrends" priority="3" category="social">
+      <Host>twitter-trends-api.p.rapidapi.com</Host>
+      <Status>Active</Status>
+    </API>
+    <API name="SportsHighlights" priority="4" category="abstract">
+      <Host>sport-highlights-api.p.rapidapi.com</Host>
+      <Status>Active</Status>
+    </API>
+    <API name="Reuters" priority="4" category="news">
+      <Host>reuters-business-and-financial-news.p.rapidapi.com</Host>
+      <Status>Active</Status>
+    </API>
+  </APIs>
+  <TargetCountries>
+    <Country code="us">United States</Country>
+    <Country code="gb">United Kingdom</Country>
+    <Country code="ca">Canada</Country>
+    <Country code="au">Australia</Country>
+    <Country code="de">Germany</Country>
+    <Country code="fr">France</Country>
+    <Country code="in">India</Country>
+    <Country code="br">Brazil</Country>
+    <Country code="jp">Japan</Country>
+    <Country code="mx">Mexico</Country>
+    <Country code="es">Spain</Country>
+    <Country code="it">Italy</Country>
+    <Country code="nl">Netherlands</Country>
+    <Country code="se">Sweden</Country>
+    <Country code="no">Norway</Country>
+    <Country code="dk">Denmark</Country>
+    <Country code="pl">Poland</Country>
+    <Country code="tr">Turkey</Country>
+  </TargetCountries>
+  <OutputFormats>
+    <Format type="json" pattern="{source}_{timestamp}.json" />
+    <Format type="parquet" pattern="cranberry_fresh_{timestamp}.parquet" />
+    <Format type="csv" pattern="fresh_data_summary_{timestamp}.csv" />
+  </OutputFormats>
+  <LastCollection>
+    <Timestamp>2026-01-18T06:07:05.773646</Timestamp>
+    <Status>completed</Status>
+  </LastCollection>
+</SCHIG>

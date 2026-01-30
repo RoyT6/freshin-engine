@@ -1,0 +1,1152 @@
+[
+  {
+    "source": "disney_plus",
+    "type": "titles",
+    "page": 1,
+    "data": {
+      "items": [
+        {
+          "title": "Fantasia",
+          "type": "MOVIE",
+          "description": "Walt Disney's timeless masterpiece is an extravaganza of sight and sound! See the music come to life, hear the pictures burst into song and experience the excitement that is Fantasia over and over again.",
+          "release_year": 1940,
+          "age_certification": "G",
+          "runtime": 120,
+          "genres": [
+            "animation",
+            "family",
+            "music",
+            "fantasy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0032455",
+          "imdb_score": 7.7,
+          "imdb_votes": 94681,
+          "tmdb_popularity": 57.751,
+          "tmdb_score": 7.4
+        },
+        {
+          "title": "Snow White and the Seven Dwarfs",
+          "type": "MOVIE",
+          "description": "A beautiful girl, Snow White, takes refuge in the forest in the house of seven dwarfs to hide from her stepmother, the wicked Queen. The Queen is jealous because she wants to be known as \"the fairest in the land,\" and Snow White's beauty surpasses her own.",
+          "release_year": 1937,
+          "age_certification": "G",
+          "runtime": 83,
+          "genres": [
+            "fantasy",
+            "family",
+            "romance",
+            "animation",
+            "thriller",
+            "drama"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0029583",
+          "imdb_score": 7.6,
+          "imdb_votes": 195321,
+          "tmdb_popularity": 107.137,
+          "tmdb_score": 7.1
+        },
+        {
+          "title": "Pinocchio",
+          "type": "MOVIE",
+          "description": "Lonely toymaker Geppetto has his wishes answered when the Blue Fairy arrives to bring his wooden puppet Pinocchio to life. Before becoming a real boy, however, Pinocchio must prove he's worthy as he sets off on an adventure with his whistling sidekick and conscience, Jiminy Cricket.",
+          "release_year": 1940,
+          "age_certification": "G",
+          "runtime": 88,
+          "genres": [
+            "animation",
+            "comedy",
+            "family",
+            "fantasy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0032910",
+          "imdb_score": 7.5,
+          "imdb_votes": 141937,
+          "tmdb_popularity": 71.16,
+          "tmdb_score": 7.1
+        },
+        {
+          "title": "Bambi",
+          "type": "MOVIE",
+          "description": "Bambi's tale unfolds from season to season as the young prince of the forest learns about life, love, and friends.",
+          "release_year": 1942,
+          "age_certification": "G",
+          "runtime": 70,
+          "genres": [
+            "animation",
+            "drama",
+            "family"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0034492",
+          "imdb_score": 7.3,
+          "imdb_votes": 140406,
+          "tmdb_popularity": 68.136,
+          "tmdb_score": 7.0
+        },
+        {
+          "title": "Treasure Island",
+          "type": "MOVIE",
+          "description": "Enchanted by the idea of locating treasure buried by Captain Flint, Squire Trelawney, Dr. Livesey and Jim Hawkins charter a sailing voyage to a Caribbean island. Unfortunately, a large number of Flint's old pirate crew are aboard the ship, including Long John Silver.",
+          "release_year": 1950,
+          "age_certification": "PG",
+          "runtime": 96,
+          "genres": [
+            "family",
+            "action"
+          ],
+          "production_countries": [
+            "GB",
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0043067",
+          "imdb_score": 6.9,
+          "imdb_votes": 8229,
+          "tmdb_popularity": 10.698,
+          "tmdb_score": 6.5
+        },
+        {
+          "title": "The Adventures of Ichabod and Mr. Toad",
+          "type": "MOVIE",
+          "description": "The Wind in the Willows: Concise version of Kenneth Grahame's story of the same name. J. Thaddeus Toad, owner of Toad Hall, is prone to fads, such as the newfangled motor car. This desire for the very latest lands him in much trouble with the wrong crowd, and it is up to his friends, Mole, Rat and Badger to save him from himself. - The Legend of Sleepy Hollow: Retelling of Washington Irving's story set in a tiny New England town. Ichabod Crane, the new schoolmaster, falls for the town beauty, Katrina Van Tassel, and the town Bully Brom Bones decides that he is a little too successful and needs \"convincing\" that Katrina is not for him.",
+          "release_year": 1949,
+          "age_certification": "G",
+          "runtime": 68,
+          "genres": [
+            "fantasy",
+            "horror",
+            "animation",
+            "comedy",
+            "family"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0041094",
+          "imdb_score": 6.9,
+          "imdb_votes": 15405,
+          "tmdb_popularity": 10.862,
+          "tmdb_score": 6.5
+        },
+        {
+          "title": "Cinderella",
+          "type": "MOVIE",
+          "description": "Cinderella has faith her dreams of a better life will come true. With help from her loyal mice friends and a wave of her Fairy Godmother's wand, Cinderella's rags are magically turned into a glorious gown and off she goes to the Royal Ball. But when the clock strikes midnight, the spell is broken, leaving a single glass slipper... the only key to the ultimate fairy-tale ending!",
+          "release_year": 1950,
+          "age_certification": "G",
+          "runtime": 74,
+          "genres": [
+            "fantasy",
+            "animation",
+            "family",
+            "romance"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0042332",
+          "imdb_score": 7.3,
+          "imdb_votes": 157099,
+          "tmdb_popularity": 144.284,
+          "tmdb_score": 7.0
+        },
+        {
+          "title": "Dumbo",
+          "type": "MOVIE",
+          "description": "Dumbo is a baby elephant born with over-sized ears and a supreme lack of confidence. But thanks to his even more diminutive buddy Timothy the Mouse,  the pint-sized pachyderm learns to surmount all obstacles.",
+          "release_year": 1941,
+          "age_certification": "G",
+          "runtime": 63,
+          "genres": [
+            "animation",
+            "drama",
+            "family",
+            "fantasy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0033563",
+          "imdb_score": 7.2,
+          "imdb_votes": 129548,
+          "tmdb_popularity": 69.875,
+          "tmdb_score": 7.0
+        },
+        {
+          "title": "The Three Caballeros",
+          "type": "MOVIE",
+          "description": "For Donald's birthday he receives a box with three gifts inside. The gifts, a movie projector, a pop-up book, and a pinata, each take Donald on wild adventures through Mexico and South America.",
+          "release_year": 1944,
+          "age_certification": "G",
+          "runtime": 71,
+          "genres": [
+            "animation",
+            "comedy",
+            "family",
+            "fantasy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0038166",
+          "imdb_score": 6.3,
+          "imdb_votes": 13889,
+          "tmdb_popularity": 11.75,
+          "tmdb_score": 6.4
+        },
+        {
+          "title": "The Reluctant Dragon",
+          "type": "MOVIE",
+          "description": "Humorist Robert Benchley attempts to find Walt Disney to ask him to adapt a short story about a gentle dragon who would rather recite poetry than be ferocious. Along the way, he is given a tour of Walt Disney Studios, and learns about the animation process.",
+          "release_year": 1941,
+          "age_certification": "G",
+          "runtime": 74,
+          "genres": [
+            "fantasy",
+            "animation",
+            "family",
+            "comedy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0034091",
+          "imdb_score": 6.8,
+          "imdb_votes": 3280,
+          "tmdb_popularity": 6.958,
+          "tmdb_score": 6.6
+        }
+      ],
+      "meta": {
+        "count": 1535,
+        "current_page": 1,
+        "items_per_page": 10,
+        "number_of_pages": 154
+      }
+    }
+  },
+  {
+    "source": "disney_plus",
+    "type": "titles",
+    "page": 2,
+    "data": {
+      "items": [
+        {
+          "title": "Fun and Fancy Free",
+          "type": "MOVIE",
+          "description": "Jiminy Cricket hosts two Disney animated shorts: \u201cBongo,\u201d about a circus bear escaping to the wild, and \u201cMickey and the Beanstalk,\u201d a take on the famous fairy tale.",
+          "release_year": 1947,
+          "age_certification": "G",
+          "runtime": 73,
+          "genres": [
+            "animation",
+            "family",
+            "fantasy",
+            "romance",
+            "comedy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0039404",
+          "imdb_score": 6.4,
+          "imdb_votes": 8228,
+          "tmdb_popularity": 10.058,
+          "tmdb_score": 6.3
+        },
+        {
+          "title": "Steamboat Willie",
+          "type": "MOVIE",
+          "description": "Mickey Mouse, piloting a steamboat, delights his passenger, Minnie, by making musical instruments out of the menagerie on deck.",
+          "release_year": 1928,
+          "age_certification": "G",
+          "runtime": 8,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 10.513,
+          "tmdb_score": 7.4
+        },
+        {
+          "title": "Saludos Amigos",
+          "type": "MOVIE",
+          "description": "Live-action segments show members of the Disney staff touring South America and recording their impressions in sketches. These segue into four animated sections: \"Lake Titicaca\" depicts tourist Donald Duck's troubles with a stubborn llama; and in \"Aquarela do Brasil,\" Jose Carioca shows Donald the sights and sound of Rio de Janeiro.",
+          "release_year": 1942,
+          "age_certification": null,
+          "runtime": 42,
+          "genres": [
+            "animation",
+            "fantasy",
+            "comedy",
+            "family"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0036326",
+          "imdb_score": 6.1,
+          "imdb_votes": 6506,
+          "tmdb_popularity": 20.418,
+          "tmdb_score": 5.8
+        },
+        {
+          "title": "How to Play Baseball",
+          "type": "MOVIE",
+          "description": "Goofy shows us the national pastime. After a brief overview, we have a demonstration of the many possible pitches. On to the World Series, where we go through an eventful inning, culminating in a baseball that disintegrates when being hit.",
+          "release_year": 1942,
+          "age_certification": null,
+          "runtime": 8,
+          "genres": [
+            "comedy",
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 4.179,
+          "tmdb_score": 6.6
+        },
+        {
+          "title": "Melody Time",
+          "type": "MOVIE",
+          "description": "In the grand tradition of Disney's great musical classics, Melody Time features seven timeless stories, each enhanced with high-spirited music and unforgettable characters. You'll be sure to tap your toes and clap your hands in this witty feast for the eyes and ears.",
+          "release_year": 1948,
+          "age_certification": null,
+          "runtime": 75,
+          "genres": [
+            "comedy",
+            "music",
+            "family",
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0040580",
+          "imdb_score": 6.2,
+          "imdb_votes": 5993,
+          "tmdb_popularity": 8.856,
+          "tmdb_score": 6.2
+        },
+        {
+          "title": "Ferdinand the Bull",
+          "type": "MOVIE",
+          "description": "This Oscar-winning short tells of a bull who preferred to sit under trees and smell flowers to clashing horns with his fellow animals. As luck would have it, an untimely bee reveals Ferdinand's ferocious side via pained howls and wild stomping. This lands him in the bull-fighting arena amidst characters based on Walt's animators with a matador reportedly modeled after Walt himself.",
+          "release_year": 1938,
+          "age_certification": "G",
+          "runtime": 8,
+          "genres": [
+            "comedy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 10.983,
+          "tmdb_score": 6.5
+        },
+        {
+          "title": "Three Little Pigs",
+          "type": "MOVIE",
+          "description": "The two pigs building houses of hay and sticks scoff at their brother, building the brick house. But when the wolf comes around and blows their houses down (after trickery like dressing as a foundling sheep fails), they run to their brother's house. And throughout, they sing the classic song, \"Who's Afraid of the Big Bad Wolf?\".",
+          "release_year": 1933,
+          "age_certification": null,
+          "runtime": 8,
+          "genres": [
+            "comedy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 8.883,
+          "tmdb_score": 6.8
+        },
+        {
+          "title": "Tugboat Mickey",
+          "type": "MOVIE",
+          "description": "Mickey is performing routine maintenance on his tugboat (with interference from a pelican) when a call comes on the radio that there's a sinking ship needing assistance. Sadly, Mickey's crew consists of Donald and Goofy, so getting underway to help is not easy. Goofy has to fight a boiler's door to get it stoked with coal (and when he succeeds, he overfills it) and Donald gets tangled up in the machinery. Not to mention that nobody casts off, so they drag half the dock along with them. The overworked boiler soon explodes.",
+          "release_year": 1940,
+          "age_certification": null,
+          "runtime": 7,
+          "genres": [
+            "animation",
+            "family",
+            "comedy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 5.845,
+          "tmdb_score": 6.2
+        },
+        {
+          "title": "Flowers and Trees",
+          "type": "MOVIE",
+          "description": "A jealous stump threatens two trees that are in love by starting a forest fire. When the rain comes and puts out the fire the forest revives and celebrates the wedding.",
+          "release_year": 1932,
+          "age_certification": null,
+          "runtime": 8,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 7.105,
+          "tmdb_score": 6.7
+        },
+        {
+          "title": "Swiss Family Robinson",
+          "type": "MOVIE",
+          "description": "A family setting out for a new life across the sea is shipwrecked on a deserted island. The family members collaborate to create a home for themselves in the jungle environment.",
+          "release_year": 1940,
+          "age_certification": null,
+          "runtime": 93,
+          "genres": [
+            "action",
+            "family"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": "tt0033124",
+          "imdb_score": 6.4,
+          "imdb_votes": 641,
+          "tmdb_popularity": 4.777,
+          "tmdb_score": 5.1
+        }
+      ],
+      "meta": {
+        "count": 1535,
+        "current_page": 2,
+        "items_per_page": 10,
+        "number_of_pages": 154
+      }
+    }
+  },
+  {
+    "source": "disney_plus",
+    "type": "titles",
+    "page": 3,
+    "data": {
+      "items": [
+        {
+          "title": "Beaver Valley",
+          "type": "MOVIE",
+          "description": "Produced by Walt Disney as part of the \"True-Life Adventures\" series of nature documentaries (1948\u201360). The film depicts a young male beaver who must defend his new family against hungry predators, mischievous river otters, and the ever-impending threat of winter.",
+          "release_year": 1950,
+          "age_certification": null,
+          "runtime": 32,
+          "genres": [
+            "documentation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 1.003,
+          "tmdb_score": 6.6
+        },
+        {
+          "title": "The Ugly Duckling",
+          "type": "MOVIE",
+          "description": "An outcast duckling's search for a family to accept him leads to constant rejection before learning his true identity as a swan.",
+          "release_year": 1939,
+          "age_certification": null,
+          "runtime": 9,
+          "genres": [
+            "comedy",
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 9.947,
+          "tmdb_score": 6.8
+        },
+        {
+          "title": "The Pied Piper",
+          "type": "MOVIE",
+          "description": "The people of Hamelin, overrun with rats, offer a bag of gold to anyone who can get rid of the rats. A piper offers to do the job, and successfully lures the rats into a mirage of cheese, which disappears. The citizens, disappointed that all he did was play a tune, offer only pocket change. The piper, angered, plays a new tune that has all the children of the city follow him, even the new twins the stork is preparing to deliver.",
+          "release_year": 1933,
+          "age_certification": null,
+          "runtime": 8,
+          "genres": [
+            "animation",
+            "family"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 4.147,
+          "tmdb_score": 6.1
+        },
+        {
+          "title": "The Old Mill",
+          "type": "MOVIE",
+          "description": "Night in an old mill is dramatically depicted in this Oscar-winning short in which the frightened occupants, including birds, timid mice, owls, and other creatures try to stay safe and dry as a storm approaches. As the thunderstorm worsens, the mill wheel begins to turn and the whole mill threatens to blow apart until at last the storm subsides.",
+          "release_year": 1937,
+          "age_certification": null,
+          "runtime": 9,
+          "genres": [
+            "thriller"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 8.25,
+          "tmdb_score": 7.4
+        },
+        {
+          "title": "The Big Bad Wolf",
+          "type": "MOVIE",
+          "description": "The Big Bad Wolf torments Little Red Riding Hood and the Three Little Pigs.",
+          "release_year": 1934,
+          "age_certification": null,
+          "runtime": 9,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 9.139,
+          "tmdb_score": 6.4
+        },
+        {
+          "title": "Thru the Mirror",
+          "type": "MOVIE",
+          "description": "Mickey has been reading Alice in Wonderland, and falls asleep. He finds himself on the other side of the mirror, where the furniture is alive. He eats a walnut, which makes him briefly larger, then small. He dances around a lot, ultimately doing a major number with a deck of cards. He dances with the queen, making the king jealous. He comes after Mickey with swords, and Mickey defends himself with a sewing needle. Mickey gets the upper hand, and the king calls for reinforcements. Mickey finds himself chased by several decks, which throw their spots at him. He turns on a fan and blows them away, back through the mirror, where his alarm is ringing.",
+          "release_year": 1936,
+          "age_certification": null,
+          "runtime": 9,
+          "genres": [
+            "fantasy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 6.21,
+          "tmdb_score": 7.3
+        },
+        {
+          "title": "The Goddess of Spring",
+          "type": "MOVIE",
+          "description": "The goddess is greeted by dancing flowers and fairies. The devil comes and takes her away to be his queen. She's despondent, as winter settles in above ground. But the devil isn't happy either, and offers anything to make her happy. They reach an agreement: she'll spend six months above ground and six below. Thus we have seasons.",
+          "release_year": 1934,
+          "age_certification": null,
+          "runtime": 9,
+          "genres": [
+            "animation",
+            "music"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 3.948,
+          "tmdb_score": 5.8
+        },
+        {
+          "title": "How to Play Football",
+          "type": "MOVIE",
+          "description": "Taking all the places on both teams, Goofy demonstrates the game of football with varying results, having problems with the coach and the goal post.",
+          "release_year": 1944,
+          "age_certification": null,
+          "runtime": 7,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 3.972,
+          "tmdb_score": 6.6
+        },
+        {
+          "title": "Toby Tortoise Returns",
+          "type": "MOVIE",
+          "description": "Toby Tortoise is back, and this time he and Max Hare box instead of racing.",
+          "release_year": 1936,
+          "age_certification": null,
+          "runtime": 7,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 3.317,
+          "tmdb_score": 6.0
+        },
+        {
+          "title": "Santa's Workshop",
+          "type": "MOVIE",
+          "description": "Santa's little helpers must hurry to finish the toys before Christmas Day.",
+          "release_year": 1932,
+          "age_certification": null,
+          "runtime": 7,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 5.884,
+          "tmdb_score": 6.6
+        }
+      ],
+      "meta": {
+        "count": 1535,
+        "current_page": 3,
+        "items_per_page": 10,
+        "number_of_pages": 154
+      }
+    }
+  },
+  {
+    "source": "disney_plus",
+    "type": "titles",
+    "page": 4,
+    "data": {
+      "items": [
+        {
+          "title": "How to Swim",
+          "type": "MOVIE",
+          "description": "Goofy's plans to give a swimming lesson and enjoy a day at the beach go awry.",
+          "release_year": 1942,
+          "age_certification": null,
+          "runtime": 8,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 3.361,
+          "tmdb_score": 6.7
+        },
+        {
+          "title": "Hawaiian Holiday",
+          "type": "MOVIE",
+          "description": "Mickey, Donald, Goofy, and Pluto experience all that Hawaii has to offer. Donald tries hula dancing, Pluto explores the beach and Goofy takes up surfing!",
+          "release_year": 1937,
+          "age_certification": "G",
+          "runtime": 8,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 3.024,
+          "tmdb_score": 6.4
+        },
+        {
+          "title": "The Hockey Champ",
+          "type": "MOVIE",
+          "description": "Donald shows his nephews the moves that won him his hockey trophy. But the boys have a few moves of their own.",
+          "release_year": 1939,
+          "age_certification": null,
+          "runtime": 7,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 3.581,
+          "tmdb_score": 6.7
+        },
+        {
+          "title": "Mickey's Birthday Party",
+          "type": "MOVIE",
+          "description": "The gang throws Mickey a surprise birthday party; his present is an electric organ, which Minnie plays while Mickey does a jazzy dance. Goofy bakes the cake, but keeps having trouble with it falling. The gang does a conga line to a Latin tune.",
+          "release_year": 1942,
+          "age_certification": null,
+          "runtime": 8,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 3.821,
+          "tmdb_score": 5.8
+        },
+        {
+          "title": "Chip an' Dale",
+          "type": "MOVIE",
+          "description": "Donald needs a log for his fire. Unfortunately, the one he picks is occupied by a couple of chipmunks and their stash of acorns. When he cuts it down, Chip and Dale fall out, but their acorns stay behind, so they work at putting out Donald's fire and retrieving their stash. Donald, of course, takes this as calmly and cheerfully as you would expect.",
+          "release_year": 1947,
+          "age_certification": null,
+          "runtime": 7,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 4.362,
+          "tmdb_score": 6.7
+        },
+        {
+          "title": "The Grasshopper and the Ants",
+          "type": "MOVIE",
+          "description": "As in the classic fable, the grasshopper plays his fiddle and lives for the moment, while the industrious ants squirrel away massive amounts of food for the winter. With his song, he's able to convince at least one small ant until the queen arrives and scares him back to work. The queen warns the grasshopper of the trouble he'll be in, come winter. Winter comes, and the grasshopper, near starvation, stumbles across the ants, who are having a full-on feast in their snug little tree. They take him in and warm him up. The queen tells him only those who work can eat so he must play for them. Written by Jon Reeves",
+          "release_year": 1934,
+          "age_certification": null,
+          "runtime": 8,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 11.46,
+          "tmdb_score": 6.5
+        },
+        {
+          "title": "The Tortoise and the Hare",
+          "type": "MOVIE",
+          "description": "The Tortoise and the Hare is an animated short film released on January 5, 1935 by United Artists, produced by Walt Disney and directed by Wilfred Jackson. Based on an Aesop's fable of the same name, The Tortoise and the Hare won the 1934 Academy Award for Best Short Subject: Cartoons. This cartoon is also believed to be one of the influences for Bugs Bunny.",
+          "release_year": 1935,
+          "age_certification": null,
+          "runtime": 9,
+          "genres": [
+            "animation",
+            "fantasy",
+            "documentation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 6.644,
+          "tmdb_score": 6.6
+        },
+        {
+          "title": "Boat Builders",
+          "type": "MOVIE",
+          "description": "Mickey buys a boat kit, and enlists Goofy and Donald to help assemble it. The plans say, \"so simple a child could do it\", so of course, they have their share of troubles. But before long, they're ready to launch the Queen Minnie, with appropriate fanfare, at which time, all the collapsible parts collapse.",
+          "release_year": 1938,
+          "age_certification": null,
+          "runtime": 7,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 3.791,
+          "tmdb_score": 6.9
+        },
+        {
+          "title": "Magician Mickey",
+          "type": "MOVIE",
+          "description": "Donald continually heckles Mickey's magic act, but Mickey bests him at every turn. Donald shoots off a magic pistol that causes all the stage props to fall down on them at the finish of the act.",
+          "release_year": 1937,
+          "age_certification": null,
+          "runtime": 8,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 5.505,
+          "tmdb_score": 6.6
+        },
+        {
+          "title": "Mickey's Delayed Date",
+          "type": "MOVIE",
+          "description": "Even though Mickey's evening started slow and lazy, things get moving in a hurry when Minnie calls from outside the big dance, wondering why he's late. Luckily his best pal Pluto is happy to help wrangle the uncooperative evening wear and help get him out the door...without the tickets",
+          "release_year": 1947,
+          "age_certification": null,
+          "runtime": 7,
+          "genres": [
+            "comedy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 3.415,
+          "tmdb_score": 6.3
+        }
+      ],
+      "meta": {
+        "count": 1535,
+        "current_page": 4,
+        "items_per_page": 10,
+        "number_of_pages": 154
+      }
+    }
+  },
+  {
+    "source": "disney_plus",
+    "type": "titles",
+    "page": 5,
+    "data": {
+      "items": [
+        {
+          "title": "Canine Caddy",
+          "type": "MOVIE",
+          "description": "Mickey's going golfing, and Pluto is his caddy. Besides the usual caddy duties, Pluto runs to the ball and points to it. But when the ball lands in a gopher hole, Pluto's got another task: chase the gopher. They eventually chase each other through a number of holes in a knoll where Mickey is trying to putt out, causing the knoll to collapse.",
+          "release_year": 1941,
+          "age_certification": null,
+          "runtime": 7,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 3.498,
+          "tmdb_score": 6.5
+        },
+        {
+          "title": "How to Fish",
+          "type": "MOVIE",
+          "description": "Goofy's demonstration of fishing is fouled up by his clumsy casting and fly fishing, and problems with his boat.",
+          "release_year": 1942,
+          "age_certification": null,
+          "runtime": 7,
+          "genres": [
+            "comedy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 3.109,
+          "tmdb_score": 6.4
+        },
+        {
+          "title": "Food for Feudin'",
+          "type": "MOVIE",
+          "description": "Chip and Dale are busy collecting nuts and hiding them in a tree, when Pluto comes along and tries to hide his bone in the same tree. When all of the nuts end up in Pluto's dog house, Chip and Dale must come up with a way to get the nuts back.",
+          "release_year": 1950,
+          "age_certification": null,
+          "runtime": 7,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 4.076,
+          "tmdb_score": 6.2
+        },
+        {
+          "title": "Lend a Paw",
+          "type": "MOVIE",
+          "description": "Jealous over Mickey's attention to a kitten, Pluto's devil-self argues with his angel-self over whether or not to rescue the kitten when it falls into a well.  The angel-self wins, and Pluto is treated like a hero.  In the end, he and the kitten become friends.",
+          "release_year": 1941,
+          "age_certification": "G",
+          "runtime": 8,
+          "genres": [
+            "animation",
+            "family"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 5.438,
+          "tmdb_score": 6.8
+        },
+        {
+          "title": "Mickey's Trailer",
+          "type": "MOVIE",
+          "description": "Goofy's in the driver's seat, Mickey's in the kitchen, and Donald's in bed in Mickey's high-tech house trailer. When Goofy comes back to eat breakfast, leaving the car on autopilot, it takes them onto a dangerous closed mountain road. When Goofy realizes this, he accidentally unhooks the trailer, sending it on a perilous route. They come very close to disaster several times, while the oblivious Goofy drives on and hooks back up to them.",
+          "release_year": 1938,
+          "age_certification": null,
+          "runtime": 7,
+          "genres": [
+            "comedy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 11.547,
+          "tmdb_score": 7.3
+        },
+        {
+          "title": "Donald's Tire Trouble",
+          "type": "MOVIE",
+          "description": "Donald, driving in the country, is frustrated in his attempts to fix a flat tire. The jack breaks, the radiator explodes, then the remaining three tires go flat. Donald gives up in disgust and drives on with the flats. The film features references to the rubber shortage during World War II.",
+          "release_year": 1943,
+          "age_certification": null,
+          "runtime": 7,
+          "genres": [
+            "comedy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 3.806,
+          "tmdb_score": 6.1
+        },
+        {
+          "title": "On Ice",
+          "type": "MOVIE",
+          "description": "Mickey shows off his ice-skating skills to Minnie; Goofy does some unconventional ice fishing; Donald straps skates to Pluto and laughs at his attempts to skate. Donald gets strapped to a kite and is about to be swept over a waterfall when Mickey pulls off an heroic rescue.",
+          "release_year": 1935,
+          "age_certification": null,
+          "runtime": 8,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 6.018,
+          "tmdb_score": 6.6
+        },
+        {
+          "title": "Donald's Golf Game",
+          "type": "MOVIE",
+          "description": "Donald Duck tries to exhibit his golfing ability to his nephews only to have them tease him with sneezes, noises and \"trick\" clubs. Finally, they put a grasshopper in a ball and it \"jumps\" all over.",
+          "release_year": 1938,
+          "age_certification": null,
+          "runtime": 8,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 2.728,
+          "tmdb_score": 5.8
+        },
+        {
+          "title": "Sea Scouts",
+          "type": "MOVIE",
+          "description": "Donald is an admiral on a seagoing voyage with his nephews in which they encounter a ravenous shark.",
+          "release_year": 1939,
+          "age_certification": null,
+          "runtime": 8,
+          "genres": [
+            "animation"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 3.798,
+          "tmdb_score": 6.2
+        },
+        {
+          "title": "The Band Concert",
+          "type": "MOVIE",
+          "description": "Mickey is trying to lead a concert of The William Tell Overture, but he's continually disrupted by ice cream vendor Donald, who uses a seemingly endless supply of flutes to play Turkey in the Straw instead. After Donald gives up, a bee comes along and causes his own havoc. The band then reaches the Storm sequence, and the weather also starts to pick up; a tornado comes along, but they keep playing.",
+          "release_year": 1935,
+          "age_certification": null,
+          "runtime": 9,
+          "genres": [
+            "comedy"
+          ],
+          "production_countries": [
+            "US"
+          ],
+          "seasons": null,
+          "imdb_id": null,
+          "imdb_score": null,
+          "imdb_votes": null,
+          "tmdb_popularity": 7.946,
+          "tmdb_score": 7.3
+        }
+      ],
+      "meta": {
+        "count": 1535,
+        "current_page": 5,
+        "items_per_page": 10,
+        "number_of_pages": 154
+      }
+    }
+  },
+  {
+    "source": "disney_plus",
+    "type": "random_title",
+    "data": {
+      "title": "Special Agent Oso: Three Healthy Steps",
+      "type": "SHOW",
+      "description": "Special Agent Oso: Three Healthy Steps is a short series that airs in the United States and the United Kingdom during the Disney Junior programming block. It encourages children to use \"three healthy steps\" regarding eating and exercising. Characters that are featured in the short series are Special Agent Oso, Paw Pilot, Special Agent Wolfie, Special Agent Dotty, and Professor Buffo. So far, fifteen episodes have aired:",
+      "release_year": 2011,
+      "age_certification": null,
+      "runtime": 2,
+      "genres": [
+        "animation"
+      ],
+      "production_countries": [
+        "US"
+      ],
+      "seasons": 1,
+      "imdb_id": "tt1842951",
+      "imdb_score": 6.7,
+      "imdb_votes": 15,
+      "tmdb_popularity": null,
+      "tmdb_score": null
+    }
+  }
+]

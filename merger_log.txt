@@ -1,0 +1,158 @@
+[2026-01-27 10:05:43] [INFO] ======================================================================
+[2026-01-27 10:05:43] [INFO]     FRESHIN METADATA MERGER V27.72
+[2026-01-27 10:05:43] [INFO]     Schema V27.66 Compliant - NO NEW COLUMNS
+[2026-01-27 10:05:43] [INFO] ======================================================================
+[2026-01-27 10:05:43] [INFO] Loaded Translation Mapping Guide: 194 aliases
+[2026-01-27 10:05:43] [INFO] Loaded Alias Guide: 82 canonical columns
+[2026-01-27 10:05:43] [INFO] ============================================================
+[2026-01-27 10:05:43] [INFO] LOADING FRESHIN DATA SOURCES
+[2026-01-27 10:05:43] [INFO] ============================================================
+[2026-01-27 10:05:43] [INFO] [TMDB] Loaded 166 unique records
+[2026-01-27 10:05:43] [INFO] [FlixPatrol] Loaded 300 unique records
+[2026-01-27 10:05:43] [INFO] [Disney+] Loaded 17 unique records
+[2026-01-27 10:05:44] [ERROR] Error loading streaming_availability_20260127_020003.json: 'str' object does not support item assignment
+[2026-01-27 10:05:44] [INFO] [Streaming] Loaded 0 records
+[2026-01-27 10:05:44] [INFO]   tmdb: 166 records
+[2026-01-27 10:05:44] [INFO]   flixpatrol: 300 records
+[2026-01-27 10:05:44] [INFO]   disney_plus: 17 records
+[2026-01-27 10:05:44] [INFO]   imdb: 0 records
+[2026-01-27 10:05:44] [INFO]   streaming_availability: 0 records
+[2026-01-27 10:05:44] [INFO] ============================================================
+[2026-01-27 10:05:44] [INFO] LOADING BFD_META DATABASE
+[2026-01-27 10:05:44] [INFO] ============================================================
+[2026-01-27 10:05:44] [INFO] Creating backup: /mnt/c/Users/RoyT6/Downloads/BFD_META_V27.72.parquet.backup
+[2026-01-27 10:06:32] [INFO] Loading: /mnt/c/Users/RoyT6/Downloads/BFD_META_V27.72.parquet
+[2026-01-27 10:07:00] [INFO] Loaded: 514,070 rows x 1,407 columns
+[2026-01-27 10:07:00] [INFO] Building IMDb ID index...
+[2026-01-27 10:07:50] [INFO] IMDb index: 450,115 entries
+[2026-01-27 10:07:50] [INFO] Building TMDB ID index...
+[2026-01-27 10:08:47] [INFO] TMDB index: 42,388 entries
+[2026-01-27 10:08:54] [INFO] 
+[TMDB] Merging TMDB data (Priority 1)...
+[2026-01-27 10:08:54] [INFO] [TMDB] Updated: 113 records, 268 values
+[2026-01-27 10:08:54] [INFO] 
+[Disney+] Merging Disney+ data...
+[2026-01-27 10:08:54] [INFO] [Disney+] Updated: 2 records, 4 values
+[2026-01-27 10:08:54] [INFO] 
+[FlixPatrol] Merging FlixPatrol data (Priority 3)...
+[2026-01-27 10:08:54] [INFO] [FlixPatrol] Updated: 293 records, 528 values
+[2026-01-27 10:08:54] [INFO] 
+[SAVE] Saving updated database...
+[2026-01-27 10:09:39] [INFO] Saved: 514,070 rows to /mnt/c/Users/RoyT6/Downloads/BFD_META_V27.72.parquet
+[2026-01-27 10:09:39] [INFO] File size: 2.12 GB
+[2026-01-27 10:09:39] [INFO] Report saved: /mnt/c/Users/RoyT6/Downloads/FreshIn/Audit Reports/merge_report_20260127_100939.json
+[2026-01-27 10:09:39] [INFO] 
+======================================================================
+[2026-01-27 10:09:39] [INFO]     MERGE COMPLETE
+[2026-01-27 10:09:39] [INFO] ======================================================================
+[2026-01-27 10:09:39] [INFO] Duration: 0:03:55.248943
+[2026-01-27 10:09:39] [INFO] Records updated: 408
+[2026-01-27 10:09:39] [INFO] Values updated: 800
+[2026-01-27 10:09:39] [WARN] Email not configured - skipping notification
+[2026-01-27 10:09:39] [INFO] Set FRESHIN_SENDER_EMAIL and FRESHIN_SENDER_PASSWORD environment variables
+[2026-01-27 10:24:04] [INFO] ======================================================================
+[2026-01-27 10:24:04] [INFO]     FRESHIN METADATA MERGER V27.72
+[2026-01-27 10:24:04] [INFO]     Schema V27.66 Compliant - NO NEW COLUMNS
+[2026-01-27 10:24:04] [INFO] ======================================================================
+[2026-01-27 10:24:04] [INFO] Loaded Translation Mapping Guide: 194 aliases
+[2026-01-27 10:24:04] [INFO] Loaded Alias Guide: 82 canonical columns
+[2026-01-27 10:24:04] [INFO] ============================================================
+[2026-01-27 10:24:04] [INFO] LOADING FRESHIN DATA SOURCES
+[2026-01-27 10:24:04] [INFO] ============================================================
+[2026-01-27 10:24:04] [INFO] [TMDB] Loaded 166 unique records
+[2026-01-27 10:24:04] [INFO] [FlixPatrol] Loaded 300 unique records
+[2026-01-27 10:24:04] [INFO] [Disney+] Loaded 17 unique records
+[2026-01-27 10:24:04] [ERROR] Error loading streaming_availability_20260127_020003.json: 'str' object does not support item assignment
+[2026-01-27 10:24:04] [INFO] [Streaming] Loaded 0 records
+[2026-01-27 10:24:04] [INFO]   tmdb: 166 records
+[2026-01-27 10:24:04] [INFO]   flixpatrol: 300 records
+[2026-01-27 10:24:04] [INFO]   disney_plus: 17 records
+[2026-01-27 10:24:04] [INFO]   imdb: 0 records
+[2026-01-27 10:24:04] [INFO]   streaming_availability: 0 records
+[2026-01-27 10:24:04] [INFO] ============================================================
+[2026-01-27 10:24:04] [INFO] LOADING BFD_META DATABASE
+[2026-01-27 10:24:04] [INFO] ============================================================
+[2026-01-27 10:24:04] [INFO] Creating backup: /mnt/c/Users/RoyT6/Downloads/BFD_META_V27.72.parquet.backup
+[2026-01-27 10:24:54] [INFO] Loading: /mnt/c/Users/RoyT6/Downloads/BFD_META_V27.72.parquet
+[2026-01-27 10:25:25] [INFO] Loaded: 514,070 rows x 1,407 columns
+[2026-01-27 10:25:25] [INFO] Building IMDb ID index...
+[2026-01-27 10:26:14] [INFO] IMDb index: 450,115 entries
+[2026-01-27 10:26:14] [INFO] Building TMDB ID index...
+[2026-01-27 10:27:12] [INFO] TMDB index: 42,388 entries
+[2026-01-27 10:27:19] [INFO] 
+[TMDB] Merging TMDB data (Priority 1)...
+[2026-01-27 10:27:19] [INFO] [TMDB] Updated: 0 records, 0 values
+[2026-01-27 10:27:19] [INFO] 
+[Disney+] Merging Disney+ data...
+[2026-01-27 10:27:19] [INFO] [Disney+] Updated: 0 records, 0 values
+[2026-01-27 10:27:19] [INFO] 
+[FlixPatrol] Merging FlixPatrol data (Priority 3)...
+[2026-01-27 10:27:19] [INFO] [FlixPatrol] Updated: 0 records, 0 values
+[2026-01-27 10:27:19] [INFO] 
+[SAVE] Saving updated database...
+[2026-01-27 10:28:02] [INFO] Saved: 514,070 rows to /mnt/c/Users/RoyT6/Downloads/BFD_META_V27.72.parquet
+[2026-01-27 10:28:02] [INFO] File size: 2.12 GB
+[2026-01-27 10:28:02] [INFO] Report saved: /mnt/c/Users/RoyT6/Downloads/FreshIn/Audit Reports/merge_report_20260127_102802.json
+[2026-01-27 10:28:02] [INFO] 
+======================================================================
+[2026-01-27 10:28:02] [INFO]     MERGE COMPLETE
+[2026-01-27 10:28:02] [INFO] ======================================================================
+[2026-01-27 10:28:02] [INFO] Duration: 0:03:58.708411
+[2026-01-27 10:28:02] [INFO] Records updated: 0
+[2026-01-27 10:28:02] [INFO] Values updated: 0
+[2026-01-27 10:28:04] [INFO] Email sent to: warren@framecore.ai, roy@framecore.ai
+[2026-01-29 20:07:07] [INFO] ======================================================================
+[2026-01-29 20:07:07] [INFO]     FRESHIN METADATA MERGER V27.72
+[2026-01-29 20:07:07] [INFO]     Schema V27.66 Compliant - NO NEW COLUMNS
+[2026-01-29 20:07:07] [INFO] ======================================================================
+[2026-01-29 20:07:07] [INFO] ============================================================
+[2026-01-29 20:07:07] [INFO] LOADING FRESHIN DATA SOURCES
+[2026-01-29 20:07:07] [INFO] ============================================================
+[2026-01-29 20:07:07] [INFO] [TMDB] Loaded 162 unique records
+[2026-01-29 20:07:07] [INFO] [FlixPatrol] Loaded 300 unique records
+[2026-01-29 20:07:07] [INFO] [Disney+] Loaded 17 unique records
+[2026-01-29 20:07:07] [ERROR] Error loading streaming_availability_20260128_020003.json: 'str' object does not support item assignment
+[2026-01-29 20:07:07] [INFO] [Streaming] Loaded 0 records
+[2026-01-29 20:07:07] [INFO]   tmdb: 162 records
+[2026-01-29 20:07:07] [INFO]   flixpatrol: 300 records
+[2026-01-29 20:07:07] [INFO]   disney_plus: 17 records
+[2026-01-29 20:07:07] [INFO]   imdb: 0 records
+[2026-01-29 20:07:07] [INFO]   streaming_availability: 0 records
+[2026-01-29 20:07:07] [INFO] ============================================================
+[2026-01-29 20:07:07] [INFO] LOADING BFD_META DATABASE
+[2026-01-29 20:07:07] [INFO] ============================================================
+[2026-01-29 20:07:07] [ERROR] FATAL ERROR: Database not found: /mnt/c/Users/RoyT6/Downloads/BFD_META_V27.72.parquet
+[2026-01-29 20:07:07] [INFO] 
+======================================================================
+[2026-01-29 20:07:07] [INFO]     MERGE FAILED
+[2026-01-29 20:07:07] [INFO] ======================================================================
+[2026-01-29 20:07:07] [INFO] Duration: 0:00:00.209597
+[2026-01-29 20:07:07] [INFO] Records updated: 0
+[2026-01-29 20:07:07] [INFO] Values updated: 0
+[2026-01-29 20:07:08] [INFO] Email sent to: warren@framecore.ai, roy@framecore.ai
+[2026-01-29 20:07:32] [INFO] ======================================================================
+[2026-01-29 20:07:32] [INFO]     FRESHIN METADATA MERGER V27.72
+[2026-01-29 20:07:32] [INFO]     Schema V27.66 Compliant - NO NEW COLUMNS
+[2026-01-29 20:07:32] [INFO] ======================================================================
+[2026-01-29 20:07:32] [INFO] ============================================================
+[2026-01-29 20:07:32] [INFO] LOADING FRESHIN DATA SOURCES
+[2026-01-29 20:07:32] [INFO] ============================================================
+[2026-01-29 20:07:32] [INFO] [TMDB] Loaded 162 unique records
+[2026-01-29 20:07:32] [INFO] [FlixPatrol] Loaded 300 unique records
+[2026-01-29 20:07:32] [INFO] [Disney+] Loaded 17 unique records
+[2026-01-29 20:07:32] [ERROR] Error loading streaming_availability_20260128_020003.json: 'str' object does not support item assignment
+[2026-01-29 20:07:32] [INFO] [Streaming] Loaded 0 records
+[2026-01-29 20:07:32] [INFO]   tmdb: 162 records
+[2026-01-29 20:07:32] [INFO]   flixpatrol: 300 records
+[2026-01-29 20:07:32] [INFO]   disney_plus: 17 records
+[2026-01-29 20:07:32] [INFO]   imdb: 0 records
+[2026-01-29 20:07:32] [INFO]   streaming_availability: 0 records
+[2026-01-29 20:07:32] [INFO] ============================================================
+[2026-01-29 20:07:32] [INFO] LOADING BFD_META DATABASE
+[2026-01-29 20:07:32] [INFO] ============================================================
+[2026-01-29 20:07:32] [INFO] Creating backup: /mnt/c/Users/RoyT6/Downloads/BFD_VIEWS_V27.76.parquet.backup
+[2026-01-29 20:08:37] [INFO] Loading: /mnt/c/Users/RoyT6/Downloads/BFD_VIEWS_V27.76.parquet
+[2026-01-29 20:09:16] [INFO] Loaded: 559,871 rows x 1,712 columns
+[2026-01-29 20:09:16] [INFO] Building IMDb ID index...
+[2026-01-29 20:10:29] [INFO] IMDb index: 495,311 entries
+[2026-01-29 20:10:29] [INFO] Building TMDB ID index...

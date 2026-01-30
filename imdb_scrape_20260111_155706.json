@@ -1,0 +1,680 @@
+[
+  {
+    "source": "imdb_scrape",
+    "page": "most_popular_movies",
+    "url": "https://www.imdb.com/chart/moviemeter/",
+    "titles_found": 26,
+    "titles": [
+      {
+        "title": "The Housemaid",
+        "url": "/title/tt27543632/?ref_=chtmvm_t_1"
+      },
+      {
+        "title": "Avatar: Fire and Ash",
+        "url": "/title/tt1757678/?ref_=chtmvm_t_2"
+      },
+      {
+        "title": "Marty Supreme",
+        "url": "/title/tt32916440/?ref_=chtmvm_t_3"
+      },
+      {
+        "title": "Wake Up Dead Man",
+        "url": "/title/tt14364480/?ref_=chtmvm_t_4"
+      },
+      {
+        "title": "One Battle After Another",
+        "url": "/title/tt30144839/?ref_=chtmvm_t_5"
+      },
+      {
+        "title": "The Tiger",
+        "url": "/title/tt31495504/?ref_=chtmvm_t_6"
+      },
+      {
+        "title": "Bugonia",
+        "url": "/title/tt12300742/?ref_=chtmvm_t_7"
+      },
+      {
+        "title": "Avengers: Doomsday",
+        "url": "/title/tt21357150/?ref_=chtmvm_t_8"
+      },
+      {
+        "title": "Anaconda",
+        "url": "/title/tt33244668/?ref_=chtmvm_t_9"
+      },
+      {
+        "title": "Nuremberg",
+        "url": "/title/tt29567915/?ref_=chtmvm_t_10"
+      },
+      {
+        "title": "Zootopia 2",
+        "url": "/title/tt26443597/?ref_=chtmvm_t_11"
+      },
+      {
+        "title": "Dhurandhar",
+        "url": "/title/tt33014583/?ref_=chtmvm_t_12"
+      },
+      {
+        "title": "Sinners",
+        "url": "/title/tt31193180/?ref_=chtmvm_t_13"
+      },
+      {
+        "title": "Frankenstein",
+        "url": "/title/tt1312221/?ref_=chtmvm_t_14"
+      },
+      {
+        "title": "F1: The Movie",
+        "url": "/title/tt16311594/?ref_=chtmvm_t_15"
+      },
+      {
+        "title": "Train Dreams",
+        "url": "/title/tt29768334/?ref_=chtmvm_t_16"
+      },
+      {
+        "title": "Avatar: The Way of Water",
+        "url": "/title/tt1630029/?ref_=chtmvm_t_17"
+      },
+      {
+        "title": "Sentimental Value",
+        "url": "/title/tt27714581/?ref_=chtmvm_t_18"
+      },
+      {
+        "title": "Knives Out",
+        "url": "/title/tt8946378/?ref_=chtmvm_t_19"
+      },
+      {
+        "title": "Song Sung Blue",
+        "url": "/title/tt30343021/?ref_=chtmvm_t_20"
+      },
+      {
+        "title": "Weapons",
+        "url": "/title/tt26581740/?ref_=chtmvm_t_21"
+      },
+      {
+        "title": "Eternity",
+        "url": "/title/tt24950660/?ref_=chtmvm_t_22"
+      },
+      {
+        "title": "Die My Love",
+        "url": "/title/tt9362736/?ref_=chtmvm_t_23"
+      },
+      {
+        "title": "Avatar",
+        "url": "/title/tt0499549/?ref_=chtmvm_t_24"
+      },
+      {
+        "title": "Hamnet",
+        "url": "/title/tt14905854/?ref_=chtmvm_t_25"
+      },
+      {
+        "title": "Recently viewed",
+        "url": ""
+      }
+    ],
+    "fetched_at": "2026-01-11T15:56:45.948997"
+  },
+  {
+    "source": "imdb_scrape",
+    "page": "most_popular_tv",
+    "url": "https://www.imdb.com/chart/tvmeter/",
+    "titles_found": 26,
+    "titles": [
+      {
+        "title": "Stranger Things",
+        "url": "/title/tt4574334/?ref_=chttvm_t_1"
+      },
+      {
+        "title": "Run Away",
+        "url": "/title/tt9169516/?ref_=chttvm_t_2"
+      },
+      {
+        "title": "Fallout",
+        "url": "/title/tt12637874/?ref_=chttvm_t_3"
+      },
+      {
+        "title": "Pluribus",
+        "url": "/title/tt22202452/?ref_=chttvm_t_4"
+      },
+      {
+        "title": "Heated Rivalry",
+        "url": "/title/tt35495073/?ref_=chttvm_t_5"
+      },
+      {
+        "title": "Landman",
+        "url": "/title/tt14186672/?ref_=chttvm_t_6"
+      },
+      {
+        "title": "The Night Manager",
+        "url": "/title/tt1399664/?ref_=chttvm_t_7"
+      },
+      {
+        "title": "IT: Welcome to Derry",
+        "url": "/title/tt19244304/?ref_=chttvm_t_8"
+      },
+      {
+        "title": "Game of Thrones",
+        "url": "/title/tt0944947/?ref_=chttvm_t_9"
+      },
+      {
+        "title": "Breaking Bad",
+        "url": "/title/tt0903747/?ref_=chttvm_t_10"
+      },
+      {
+        "title": "The Beast in Me",
+        "url": "/title/tt31974367/?ref_=chttvm_t_11"
+      },
+      {
+        "title": "The Pitt",
+        "url": "/title/tt31938062/?ref_=chttvm_t_12"
+      },
+      {
+        "title": "Land of Sin",
+        "url": "/title/tt33501959/?ref_=chttvm_t_13"
+      },
+      {
+        "title": "The Copenhagen Test",
+        "url": "/title/tt31314791/?ref_=chttvm_t_14"
+      },
+      {
+        "title": "Percy Jackson and the Olympians",
+        "url": "/title/tt12324366/?ref_=chttvm_t_15"
+      },
+      {
+        "title": "Dark",
+        "url": "/title/tt5753856/?ref_=chttvm_t_16"
+      },
+      {
+        "title": "All Her Fault",
+        "url": "/title/tt31314751/?ref_=chttvm_t_17"
+      },
+      {
+        "title": "Wonder Man",
+        "url": "/title/tt21066182/?ref_=chttvm_t_18"
+      },
+      {
+        "title": "Mayor of Kingstown",
+        "url": "/title/tt11712058/?ref_=chttvm_t_19"
+      },
+      {
+        "title": "Red Eye",
+        "url": "/title/tt23897504/?ref_=chttvm_t_20"
+      },
+      {
+        "title": "Severance",
+        "url": "/title/tt11280740/?ref_=chttvm_t_21"
+      },
+      {
+        "title": "Homeland",
+        "url": "/title/tt1796960/?ref_=chttvm_t_22"
+      },
+      {
+        "title": "Better Call Saul",
+        "url": "/title/tt3032476/?ref_=chttvm_t_23"
+      },
+      {
+        "title": "The Rookie",
+        "url": "/title/tt7587890/?ref_=chttvm_t_24"
+      },
+      {
+        "title": "Spartacus: House of Ashur",
+        "url": "/title/tt29921437/?ref_=chttvm_t_25"
+      },
+      {
+        "title": "Recently viewed",
+        "url": ""
+      }
+    ],
+    "fetched_at": "2026-01-11T15:56:49.522050"
+  },
+  {
+    "source": "imdb_scrape",
+    "page": "top_250_movies",
+    "url": "https://www.imdb.com/chart/top/",
+    "titles_found": 26,
+    "titles": [
+      {
+        "title": "The Shawshank Redemption",
+        "url": "/title/tt0111161/?ref_=chttp_t_1"
+      },
+      {
+        "title": "The Godfather",
+        "url": "/title/tt0068646/?ref_=chttp_t_2"
+      },
+      {
+        "title": "The Dark Knight",
+        "url": "/title/tt0468569/?ref_=chttp_t_3"
+      },
+      {
+        "title": "The Godfather Part II",
+        "url": "/title/tt0071562/?ref_=chttp_t_4"
+      },
+      {
+        "title": "12 Angry Men",
+        "url": "/title/tt0050083/?ref_=chttp_t_5"
+      },
+      {
+        "title": "The Lord of the Rings: The Return of the King",
+        "url": "/title/tt0167260/?ref_=chttp_t_6"
+      },
+      {
+        "title": "Schindler's List",
+        "url": "/title/tt0108052/?ref_=chttp_t_7"
+      },
+      {
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "url": "/title/tt0120737/?ref_=chttp_t_8"
+      },
+      {
+        "title": "Pulp Fiction",
+        "url": "/title/tt0110912/?ref_=chttp_t_9"
+      },
+      {
+        "title": "The Good, the Bad and the Ugly",
+        "url": "/title/tt0060196/?ref_=chttp_t_10"
+      },
+      {
+        "title": "The Lord of the Rings: The Two Towers",
+        "url": "/title/tt0167261/?ref_=chttp_t_11"
+      },
+      {
+        "title": "Forrest Gump",
+        "url": "/title/tt0109830/?ref_=chttp_t_12"
+      },
+      {
+        "title": "Fight Club",
+        "url": "/title/tt0137523/?ref_=chttp_t_13"
+      },
+      {
+        "title": "Inception",
+        "url": "/title/tt1375666/?ref_=chttp_t_14"
+      },
+      {
+        "title": "Star Wars: Episode V - The Empire Strikes Back",
+        "url": "/title/tt0080684/?ref_=chttp_t_15"
+      },
+      {
+        "title": "The Matrix",
+        "url": "/title/tt0133093/?ref_=chttp_t_16"
+      },
+      {
+        "title": "Goodfellas",
+        "url": "/title/tt0099685/?ref_=chttp_t_17"
+      },
+      {
+        "title": "Interstellar",
+        "url": "/title/tt0816692/?ref_=chttp_t_18"
+      },
+      {
+        "title": "One Flew Over the Cuckoo's Nest",
+        "url": "/title/tt0073486/?ref_=chttp_t_19"
+      },
+      {
+        "title": "Se7en",
+        "url": "/title/tt0114369/?ref_=chttp_t_20"
+      },
+      {
+        "title": "It's a Wonderful Life",
+        "url": "/title/tt0038650/?ref_=chttp_t_21"
+      },
+      {
+        "title": "The Silence of the Lambs",
+        "url": "/title/tt0102926/?ref_=chttp_t_22"
+      },
+      {
+        "title": "Seven Samurai",
+        "url": "/title/tt0047478/?ref_=chttp_t_23"
+      },
+      {
+        "title": "Saving Private Ryan",
+        "url": "/title/tt0120815/?ref_=chttp_t_24"
+      },
+      {
+        "title": "The Green Mile",
+        "url": "/title/tt0120689/?ref_=chttp_t_25"
+      },
+      {
+        "title": "Recently viewed",
+        "url": ""
+      }
+    ],
+    "fetched_at": "2026-01-11T15:56:54.513435"
+  },
+  {
+    "source": "imdb_scrape",
+    "page": "top_250_tv",
+    "url": "https://www.imdb.com/chart/toptv/",
+    "titles_found": 26,
+    "titles": [
+      {
+        "title": "Breaking Bad",
+        "url": "/title/tt0903747/?ref_=chttvtp_t_1"
+      },
+      {
+        "title": "Planet Earth II",
+        "url": "/title/tt5491994/?ref_=chttvtp_t_2"
+      },
+      {
+        "title": "Planet Earth",
+        "url": "/title/tt0795176/?ref_=chttvtp_t_3"
+      },
+      {
+        "title": "Band of Brothers",
+        "url": "/title/tt0185906/?ref_=chttvtp_t_4"
+      },
+      {
+        "title": "Chernobyl",
+        "url": "/title/tt7366338/?ref_=chttvtp_t_5"
+      },
+      {
+        "title": "The Wire",
+        "url": "/title/tt0306414/?ref_=chttvtp_t_6"
+      },
+      {
+        "title": "Avatar: The Last Airbender",
+        "url": "/title/tt0417299/?ref_=chttvtp_t_7"
+      },
+      {
+        "title": "The Sopranos",
+        "url": "/title/tt0141842/?ref_=chttvtp_t_8"
+      },
+      {
+        "title": "Blue Planet II",
+        "url": "/title/tt6769208/?ref_=chttvtp_t_9"
+      },
+      {
+        "title": "Cosmos: A Spacetime Odyssey",
+        "url": "/title/tt2395695/?ref_=chttvtp_t_10"
+      },
+      {
+        "title": "Cosmos",
+        "url": "/title/tt0081846/?ref_=chttvtp_t_11"
+      },
+      {
+        "title": "Our Planet",
+        "url": "/title/tt9253866/?ref_=chttvtp_t_12"
+      },
+      {
+        "title": "Game of Thrones",
+        "url": "/title/tt0944947/?ref_=chttvtp_t_13"
+      },
+      {
+        "title": "Bluey",
+        "url": "/title/tt7678620/?ref_=chttvtp_t_14"
+      },
+      {
+        "title": "The World at War",
+        "url": "/title/tt0071075/?ref_=chttvtp_t_15"
+      },
+      {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "url": "/title/tt1355642/?ref_=chttvtp_t_16"
+      },
+      {
+        "title": "Attack on Titan",
+        "url": "/title/tt2560140/?ref_=chttvtp_t_17"
+      },
+      {
+        "title": "Life",
+        "url": "/title/tt1533395/?ref_=chttvtp_t_18"
+      },
+      {
+        "title": "The Last Dance",
+        "url": "/title/tt8420184/?ref_=chttvtp_t_19"
+      },
+      {
+        "title": "The Twilight Zone",
+        "url": "/title/tt0052520/?ref_=chttvtp_t_20"
+      },
+      {
+        "title": "Rick and Morty",
+        "url": "/title/tt2861424/?ref_=chttvtp_t_21"
+      },
+      {
+        "title": "The Vietnam War",
+        "url": "/title/tt1877514/?ref_=chttvtp_t_22"
+      },
+      {
+        "title": "Sherlock",
+        "url": "/title/tt1475582/?ref_=chttvtp_t_23"
+      },
+      {
+        "title": "Batman: The Animated Series",
+        "url": "/title/tt0103359/?ref_=chttvtp_t_24"
+      },
+      {
+        "title": "Better Call Saul",
+        "url": "/title/tt3032476/?ref_=chttvtp_t_25"
+      },
+      {
+        "title": "Recently viewed",
+        "url": ""
+      }
+    ],
+    "fetched_at": "2026-01-11T15:56:57.923057"
+  },
+  {
+    "source": "imdb_scrape",
+    "page": "recent_tv_releases",
+    "url": "https://www.imdb.com/search/title/?title_type=tv_series&release_date=2025-12-01,2026-01-10&sort=num_votes,desc",
+    "titles_found": 26,
+    "titles": [
+      {
+        "title": "1. The Vendetta of An",
+        "url": "/title/tt35089518/?ref_=sr_t_1"
+      },
+      {
+        "title": "2. The Abandons",
+        "url": "/title/tt16280546/?ref_=sr_t_2"
+      },
+      {
+        "title": "3. Single Papa",
+        "url": "/title/tt37062070/?ref_=sr_t_3"
+      },
+      {
+        "title": "4. Aukaat Ke Bahar",
+        "url": "/title/tt39028852/?ref_=sr_t_4"
+      },
+      {
+        "title": "5. Honeymoon Se Hatya",
+        "url": "/title/tt39227709/?ref_=sr_t_5"
+      },
+      {
+        "title": "6. The Copenhagen Test",
+        "url": "/title/tt31314791/?ref_=sr_t_6"
+      },
+      {
+        "title": "7. Bhay: The Gaurav Tiwari Mystery",
+        "url": "/title/tt35674970/?ref_=sr_t_7"
+      },
+      {
+        "title": "8. The Price of Confession",
+        "url": "/title/tt37218592/?ref_=sr_t_8"
+      },
+      {
+        "title": "9. Land of Sin",
+        "url": "/title/tt33501959/?ref_=sr_t_9"
+      },
+      {
+        "title": "10. Cashero",
+        "url": "/title/tt30413044/?ref_=sr_t_10"
+      },
+      {
+        "title": "11. Dare You to Death",
+        "url": "/title/tt34929457/?ref_=sr_t_11"
+      },
+      {
+        "title": "12. Yûsha-kei ni Shosu Chôbatsu Yûsha 9004-tai Keimu Kiroku",
+        "url": "/title/tt32536168/?ref_=sr_t_12"
+      },
+      {
+        "title": "13. The Town",
+        "url": "/title/tt24243760/?ref_=sr_t_13"
+      },
+      {
+        "title": "14. Mrs. Deshpande",
+        "url": "/title/tt38990492/?ref_=sr_t_14"
+      },
+      {
+        "title": "15. My Brother",
+        "url": "/title/tt33369549/?ref_=sr_t_15"
+      },
+      {
+        "title": "16. Kuttram Purindhavan: The Guilty One",
+        "url": "/title/tt38568136/?ref_=sr_t_16"
+      },
+      {
+        "title": "17. Vinny Ki Kitaab",
+        "url": "/title/tt39231511/?ref_=sr_t_17"
+      },
+      {
+        "title": "18. Jasmine",
+        "url": "/title/tt36584543/?ref_=sr_t_18"
+      },
+      {
+        "title": "19. Sandokan",
+        "url": "/title/tt13924304/?ref_=sr_t_19"
+      },
+      {
+        "title": "20. Best Medicine",
+        "url": "/title/tt36885662/?ref_=sr_t_20"
+      },
+      {
+        "title": "21. Speed and Love",
+        "url": "/title/tt36596644/?ref_=sr_t_21"
+      },
+      {
+        "title": "22. Girl Taken",
+        "url": "/title/tt39133077/?ref_=sr_t_22"
+      },
+      {
+        "title": "23. Simon Cowell: The Next Act",
+        "url": "/title/tt37610565/?ref_=sr_t_23"
+      },
+      {
+        "title": "24. Pro Bono",
+        "url": "/title/tt39012462/?ref_=sr_t_24"
+      },
+      {
+        "title": "25. Fugue State 1986",
+        "url": "/title/tt37762533/?ref_=sr_t_25"
+      },
+      {
+        "title": "Recently viewed",
+        "url": ""
+      }
+    ],
+    "fetched_at": "2026-01-11T15:57:01.788006"
+  },
+  {
+    "source": "imdb_scrape",
+    "page": "recent_movie_releases",
+    "url": "https://www.imdb.com/search/title/?title_type=feature&release_date=2025-12-01,2026-01-10&sort=num_votes,desc",
+    "titles_found": 26,
+    "titles": [
+      {
+        "title": "1. Avatar: Fire and Ash",
+        "url": "/title/tt1757678/?ref_=sr_t_1"
+      },
+      {
+        "title": "2. Dhurandhar",
+        "url": "/title/tt33014583/?ref_=sr_t_2"
+      },
+      {
+        "title": "3. Five Nights at Freddy's 2",
+        "url": "/title/tt30274401/?ref_=sr_t_3"
+      },
+      {
+        "title": "4. The Housemaid",
+        "url": "/title/tt27543632/?ref_=sr_t_4"
+      },
+      {
+        "title": "5. Tu Meri Main Tera Main Tera Tu Meri",
+        "url": "/title/tt35146696/?ref_=sr_t_5"
+      },
+      {
+        "title": "6. Ikkis",
+        "url": "/title/tt15464188/?ref_=sr_t_6"
+      },
+      {
+        "title": "7. Oh. What. Fun.",
+        "url": "/title/tt31998881/?ref_=sr_t_7"
+      },
+      {
+        "title": "8. Anaconda",
+        "url": "/title/tt33244668/?ref_=sr_t_8"
+      },
+      {
+        "title": "9. Troll 2",
+        "url": "/title/tt29232158/?ref_=sr_t_9"
+      },
+      {
+        "title": "10. My Secret Santa",
+        "url": "/title/tt35219851/?ref_=sr_t_10"
+      },
+      {
+        "title": "11. People We Meet on Vacation",
+        "url": "/title/tt22740896/?ref_=sr_t_11"
+      },
+      {
+        "title": "12. Goodbye June",
+        "url": "/title/tt35766629/?ref_=sr_t_12"
+      },
+      {
+        "title": "13. The Raja Saab",
+        "url": "/title/tt23790696/?ref_=sr_t_13"
+      },
+      {
+        "title": "14. Sarvam Maya",
+        "url": "/title/tt32362695/?ref_=sr_t_14"
+      },
+      {
+        "title": "15. Bha. Bha. Ba.",
+        "url": "/title/tt28551273/?ref_=sr_t_15"
+      },
+      {
+        "title": "16. Fackham Hall",
+        "url": "/title/tt29008225/?ref_=sr_t_16"
+      },
+      {
+        "title": "17. Parasakthi",
+        "url": "/title/tt35019998/?ref_=sr_t_17"
+      },
+      {
+        "title": "18. Merv",
+        "url": "/title/tt31281659/?ref_=sr_t_18"
+      },
+      {
+        "title": "19. Akhanda 2 - Thaandavam",
+        "url": "/title/tt15387182/?ref_=sr_t_19"
+      },
+      {
+        "title": "20. Hunting Season",
+        "url": "/title/tt32537226/?ref_=sr_t_20"
+      },
+      {
+        "title": "21. Shambhala",
+        "url": "/title/tt34159694/?ref_=sr_t_21"
+      },
+      {
+        "title": "22. Raat Akeli Hai: The Bansal Murders",
+        "url": "/title/tt37443891/?ref_=sr_t_22"
+      },
+      {
+        "title": "23. Gezhi Town",
+        "url": "/title/tt33014233/?ref_=sr_t_23"
+      },
+      {
+        "title": "24. David",
+        "url": "/title/tt15678738/?ref_=sr_t_24"
+      },
+      {
+        "title": "25. Nirvaagam Porupalla",
+        "url": "/title/tt39115096/?ref_=sr_t_25"
+      },
+      {
+        "title": "Recently viewed",
+        "url": ""
+      }
+    ],
+    "fetched_at": "2026-01-11T15:57:05.793753"
+  }
+]

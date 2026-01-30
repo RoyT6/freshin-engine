@@ -1,0 +1,18 @@
+{
+  "source": "Rotten Tomatoes",
+  "fetch_time": "2026-01-18T15:11:46.877715",
+  "data": {
+    "netflix_top100_tv": {
+      "status_code": 403,
+      "data": "{\"message\":\"You are not subscribed to this API.\"}"
+    },
+    "streaming_tv_action": {
+      "status_code": 429,
+      "data": "{\"message\":\"Too many requests\"}"
+    },
+    "query_movies": {
+      "status_code": 429,
+      "data": "{\"message\":\"Too many requests\"}"
+    }
+  }
+}

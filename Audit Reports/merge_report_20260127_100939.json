@@ -1,0 +1,165 @@
+{
+  "report_type": "FreshIn Metadata Merge",
+  "version": "V27.72",
+  "timestamp": "2026-01-27T10:09:39.099905",
+  "database": "/mnt/c/Users/RoyT6/Downloads/BFD_META_V27.72.parquet",
+  "statistics": {
+    "database_rows": 514070,
+    "database_columns": 1407,
+    "records_updated": 408,
+    "values_updated": 800,
+    "new_titles_not_in_db": 59
+  },
+  "updates_by_source": {
+    "tmdb": {
+      "records": 113,
+      "values": 268
+    },
+    "disney_plus": {
+      "records": 2,
+      "values": 4
+    },
+    "flixpatrol": {
+      "records": 293,
+      "values": 528
+    }
+  },
+  "updates_by_column": {
+    "tmdb_popularity": 114,
+    "tmdb_score": 87,
+    "original_language": 68,
+    "overview": 1,
+    "runtime_minutes": 1,
+    "age_certification": 1,
+    "budget": 236,
+    "tagline": 292
+  },
+  "sample_updated_titles": [
+    {
+      "title": "Zootopia 2",
+      "source": "TMDB",
+      "fields_updated": 2
+    },
+    {
+      "title": "Anaconda",
+      "source": "TMDB",
+      "fields_updated": 2
+    },
+    {
+      "title": "One Battle After Another",
+      "source": "TMDB",
+      "fields_updated": 2
+    },
+    {
+      "title": "Greenland 2: Migration",
+      "source": "TMDB",
+      "fields_updated": 2
+    },
+    {
+      "title": "The Rip",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "Marty Supreme",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "Hamnet",
+      "source": "TMDB",
+      "fields_updated": 2
+    },
+    {
+      "title": "The SpongeBob Movie: Search for SquarePants",
+      "source": "TMDB",
+      "fields_updated": 2
+    },
+    {
+      "title": "The Secret Agent",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "28 Years Later: The Bone Temple",
+      "source": "TMDB",
+      "fields_updated": 2
+    },
+    {
+      "title": "Avatar: Fire and Ash",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "Rental Family",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "A Knight of the Seven Kingdoms",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "JUJUTSU KAISEN",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "Fallout",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "The Beauty",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "Frieren: Beyond Journey's End",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "Stranger Things",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "Landman",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "The Pitt",
+      "source": "TMDB",
+      "fields_updated": 2
+    },
+    {
+      "title": "The Night Manager",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "Can This Love Be Translated?",
+      "source": "TMDB",
+      "fields_updated": 2
+    },
+    {
+      "title": "Spartacus: House of Ashur",
+      "source": "TMDB",
+      "fields_updated": 2
+    },
+    {
+      "title": "Hell's Paradise",
+      "source": "TMDB",
+      "fields_updated": 3
+    },
+    {
+      "title": "Memory of a Killer",
+      "source": "TMDB",
+      "fields_updated": 3
+    }
+  ],
+  "errors": []
+}

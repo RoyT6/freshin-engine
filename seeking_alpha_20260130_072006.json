@@ -1,0 +1,429 @@
+[
+  {
+    "source": "seeking_alpha",
+    "type": "company_search",
+    "symbol": "NFLX",
+    "data": {
+      "symbols": [
+        {
+          "id": 97,
+          "type": "symbol",
+          "score": 736387.25,
+          "url": "/symbol/NFLX",
+          "name": "<b>NFLX</b>",
+          "content": "Netflix, Inc.",
+          "slug": "nflx",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/NFLX.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/NFLX.svg"
+          }
+        },
+        {
+          "id": 762295,
+          "type": "symbol",
+          "score": 16999.76,
+          "url": "/symbol/NFLY",
+          "name": "NFLY",
+          "content": "YieldMax <b>NFLX</b> Option Income Strategy ETF",
+          "slug": "nfly",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/NFLY.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/NFLY.svg"
+          }
+        },
+        {
+          "id": 764531,
+          "type": "symbol",
+          "score": 15037.438,
+          "url": "/symbol/NFLX:CA",
+          "name": "<b>NFLX:CA</b>",
+          "content": "Netflix, Inc.",
+          "slug": "nflx:ca",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/NFLX:CA.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/NFLX:CA.svg"
+          }
+        },
+        {
+          "id": 780338,
+          "type": "symbol",
+          "score": 12005.359,
+          "url": "/symbol/NFXL",
+          "name": "NFXL",
+          "content": "Direxion Daily <b>NFLX</b> Bull 2X Shares ETF",
+          "slug": "nfxl",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/NFXL.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/NFXL.svg"
+          }
+        },
+        {
+          "id": 784061,
+          "type": "symbol",
+          "score": 11691.748,
+          "url": "/symbol/NFLW",
+          "name": "NFLW",
+          "content": "Roundhill <b>NFLX</b> WeeklyPay ETF",
+          "slug": "nflw",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/NFLW.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/NFLW.svg"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "source": "seeking_alpha",
+    "type": "company_search",
+    "symbol": "DIS",
+    "data": {
+      "symbols": [
+        {
+          "id": 86,
+          "type": "symbol",
+          "score": 675380.9,
+          "url": "/symbol/DIS",
+          "name": "<b>DIS</b>",
+          "content": "The Walt <b>Disney</b> Company",
+          "slug": "dis",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/DIS.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/DIS.svg"
+          }
+        },
+        {
+          "id": 762371,
+          "type": "symbol",
+          "score": 24444.412,
+          "url": "/symbol/DISO",
+          "name": "<b>DISO</b>",
+          "content": "YieldMax <b>DIS</b> Option Income Strategy ETF",
+          "slug": "diso",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/DISO.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/DISO.svg"
+          }
+        },
+        {
+          "id": 615397,
+          "type": "symbol",
+          "score": 14901.516,
+          "url": "/symbol/DISV",
+          "name": "<b>DISV</b>",
+          "content": "Dimensional International Small Cap Value ETF",
+          "slug": "disv",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/DISV.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/DISV.svg"
+          }
+        },
+        {
+          "id": 354135,
+          "type": "symbol",
+          "score": 13374.032,
+          "url": "/symbol/DISVX",
+          "name": "<b>DISVX</b>",
+          "content": "DFA International Small Cap Value Portfolio Inst",
+          "slug": "disvx",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/DISVX.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/DISVX.svg"
+          }
+        },
+        {
+          "id": 764542,
+          "type": "symbol",
+          "score": 11960.722,
+          "url": "/symbol/DIS:CA",
+          "name": "<b>DIS:CA</b>",
+          "content": "The Walt <b>Disney</b> Company",
+          "slug": "dis:ca",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/DIS:CA.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/DIS:CA.svg"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "source": "seeking_alpha",
+    "type": "company_search",
+    "symbol": "WBD",
+    "data": {
+      "symbols": [
+        {
+          "id": 5332,
+          "type": "symbol",
+          "score": 669104.06,
+          "url": "/symbol/WBD",
+          "name": "<b>WBD</b>",
+          "content": "Warner Bros. Discovery, Inc.",
+          "slug": "wbd",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/WBD.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/WBD.svg"
+          }
+        },
+        {
+          "id": 12419,
+          "type": "symbol",
+          "score": 15326.595,
+          "url": "/symbol/WBDSF",
+          "name": "<b>WBDSF</b>",
+          "content": "Webuild S.p.A.",
+          "slug": "wbdsf",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/WBDSF.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/WBDSF.svg"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "source": "seeking_alpha",
+    "type": "company_search",
+    "symbol": "PARA",
+    "data": {
+      "symbols": [
+        {
+          "id": 580476,
+          "type": "symbol",
+          "score": 7169.9595,
+          "url": "/symbol/PARA-USD",
+          "name": "<b>PARA-USD</b>",
+          "content": "<b>ParanoiaCoin</b> USD",
+          "slug": "para-usd",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/PARA-USD.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/PARA-USD.svg"
+          }
+        },
+        {
+          "id": 253365,
+          "type": "symbol",
+          "score": 6832.0664,
+          "url": "/symbol/PARAX",
+          "name": "<b>PARAX</b>",
+          "content": "T. Rowe Price Retirement 2010 Fund Adv",
+          "slug": "parax",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/PARAX.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/PARAX.svg"
+          }
+        },
+        {
+          "id": 23699,
+          "type": "symbol",
+          "score": 6498.778,
+          "url": "/symbol/EAPH",
+          "name": "EAPH",
+          "content": "<b>Parallel</b> Industries Inc.",
+          "slug": "eaph",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/EAPH.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/EAPH.svg"
+          }
+        },
+        {
+          "id": 9433,
+          "type": "symbol",
+          "score": 6471.345,
+          "url": "/symbol/PZG",
+          "name": "PZG",
+          "content": "<b>Paramount</b> Gold Nevada Corp.",
+          "slug": "pzg",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/PZG.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/PZG.svg"
+          }
+        },
+        {
+          "id": 784979,
+          "type": "symbol",
+          "score": 6446.0986,
+          "url": "/symbol/PSKY",
+          "name": "PSKY",
+          "content": "<b>Paramount</b> Skydance Corporation",
+          "slug": "psky",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/PSKY.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/PSKY.svg"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "source": "seeking_alpha",
+    "type": "company_search",
+    "symbol": "CMCSA",
+    "data": {
+      "symbols": [
+        {
+          "id": 651,
+          "type": "symbol",
+          "score": 854361.25,
+          "url": "/symbol/CMCSA",
+          "name": "<b>CMCSA</b>",
+          "content": "Comcast Corporation",
+          "slug": "cmcsa",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/CMCSA.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/CMCSA.svg"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "source": "seeking_alpha",
+    "type": "company_search",
+    "symbol": "AMZN",
+    "data": {
+      "symbols": [
+        {
+          "id": 562,
+          "type": "symbol",
+          "score": 764216.25,
+          "url": "/symbol/AMZN",
+          "name": "<b>AMZN</b>",
+          "content": "Amazon.com, Inc.",
+          "slug": "amzn",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/AMZN.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/AMZN.svg"
+          }
+        },
+        {
+          "id": 764525,
+          "type": "symbol",
+          "score": 18109.025,
+          "url": "/symbol/AMZN:CA",
+          "name": "<b>AMZN:CA</b>",
+          "content": "Amazon.com, Inc.",
+          "slug": "amzn:ca",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/AMZN:CA.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/AMZN:CA.svg"
+          }
+        },
+        {
+          "id": 762257,
+          "type": "symbol",
+          "score": 17554.793,
+          "url": "/symbol/AMZY",
+          "name": "AMZY",
+          "content": "YieldMax <b>AMZN</b> Option Income Strategy ETF",
+          "slug": "amzy",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/AMZY.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/AMZY.svg"
+          }
+        },
+        {
+          "id": 638238,
+          "type": "symbol",
+          "score": 14843.89,
+          "url": "/symbol/AMZU",
+          "name": "AMZU",
+          "content": "Direxion Daily <b>AMZN</b> Bull 2X Shares ETF",
+          "slug": "amzu",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/AMZU.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/AMZU.svg"
+          }
+        },
+        {
+          "id": 784063,
+          "type": "symbol",
+          "score": 13402.094,
+          "url": "/symbol/AMZW",
+          "name": "AMZW",
+          "content": "Roundhill <b>AMZN</b> WeeklyPay ETF",
+          "slug": "amzw",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/AMZW.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/AMZW.svg"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "source": "seeking_alpha",
+    "type": "company_search",
+    "symbol": "AAPL",
+    "data": {
+      "symbols": [
+        {
+          "id": 146,
+          "type": "symbol",
+          "score": 797246.06,
+          "url": "/symbol/AAPL",
+          "name": "<b>AAPL</b>",
+          "content": "Apple Inc.",
+          "slug": "aapl",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/AAPL.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/AAPL.svg"
+          }
+        },
+        {
+          "id": 764528,
+          "type": "symbol",
+          "score": 19858.975,
+          "url": "/symbol/AAPL:CA",
+          "name": "<b>AAPL:CA</b>",
+          "content": "Apple Inc.",
+          "slug": "aapl:ca",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/AAPL:CA.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/AAPL:CA.svg"
+          }
+        },
+        {
+          "id": 719409,
+          "type": "symbol",
+          "score": 16869.139,
+          "url": "/symbol/APLY",
+          "name": "APLY",
+          "content": "YieldMax <b>AAPL</b> Option Income Strategy ETF",
+          "slug": "aply",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/APLY.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/APLY.svg"
+          }
+        },
+        {
+          "id": 631483,
+          "type": "symbol",
+          "score": 14376.82,
+          "url": "/symbol/AAPU",
+          "name": "AAPU",
+          "content": "Direxion Daily <b>AAPL</b> Bull 2X Shares ETF",
+          "slug": "aapu",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/AAPU.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/AAPU.svg"
+          }
+        },
+        {
+          "id": 781480,
+          "type": "symbol",
+          "score": 13296.11,
+          "url": "/symbol/AAPW",
+          "name": "AAPW",
+          "content": "Roundhill Etf Trust - Roundhill <b>Aapl</b> Weeklypay Etf",
+          "slug": "aapw",
+          "image": {
+            "light": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/AAPW.svg",
+            "dark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/AAPW.svg"
+          }
+        }
+      ]
+    }
+  }
+]

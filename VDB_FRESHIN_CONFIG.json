@@ -1,0 +1,187 @@
+{
+  "_metadata": {
+    "name": "VDB FreshIn! Engine Configuration",
+    "version": "1.00",
+    "created": "2026-01-15",
+    "purpose": "Configuration for intelligent data routing from Fresh In! to databases"
+  },
+
+  "targets": {
+    "BFD": {
+      "path": "/mnt/c/Users/RoyT6/Downloads/Cranberry_BFD_V18.02.parquet",
+      "description": "Big Fact Database - 768K titles x 1700+ columns",
+      "accepts": ["title_metadata", "trending_data"],
+      "key_fields": ["fc_uid", "imdb_id", "tmdb_id"],
+      "merge_strategy": "upsert",
+      "update_columns": ["tmdb_popularity", "tmdb_score", "tmdb_vote_count", "flixpatrol_points"]
+    },
+    "STAR_SCHEMA": {
+      "path": "/mnt/c/Users/RoyT6/Downloads/Cranberry_Star_Schema_V18.02.parquet",
+      "description": "Views by country/platform - 204M rows x 4 columns",
+      "accepts": ["viewership_data"],
+      "key_fields": ["fc_uid", "country", "platform"],
+      "merge_strategy": "append"
+    },
+    "VIEWS_TRAINING": {
+      "path": "/mnt/c/Users/RoyT6/Downloads/Views Training Data/",
+      "description": "Ground truth viewership data for ML training",
+      "accepts": ["viewership_data"],
+      "file_pattern": "FRESH_views_{source}_{date}.csv",
+      "merge_strategy": "append_file"
+    },
+    "ABSTRACT_DATA": {
+      "path": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/",
+      "description": "External signals, trends, financials",
+      "accepts": ["social_signals", "financial_data", "news_events"],
+      "file_pattern": "fresh_{signal_type}_{datetime}.parquet",
+      "merge_strategy": "append_file"
+    },
+    "COMPONENTS": {
+      "path": "/mnt/c/Users/RoyT6/Downloads/Components/",
+      "description": "Streaming lookup tables and platform availability",
+      "accepts": ["platform_availability"],
+      "file_pattern": "streaming_lookup_{country}.json",
+      "merge_strategy": "deep_merge"
+    }
+  },
+
+  "source_routing": {
+    "tmdb": {
+      "data_types": {
+        "trending_movies_week": {"target": "BFD", "action": "update", "priority": 1},
+        "trending_tv_week": {"target": "BFD", "action": "update", "priority": 1},
+        "popular_movies": {"target": "BFD", "action": "merge", "priority": 2},
+        "popular_tv": {"target": "BFD", "action": "merge", "priority": 2},
+        "top_rated_movies": {"target": "BFD", "action": "merge", "priority": 3},
+        "top_rated_tv": {"target": "BFD", "action": "merge", "priority": 3},
+        "upcoming_movies": {"target": "BFD", "action": "merge", "priority": 3},
+        "now_playing_movies": {"target": "BFD", "action": "merge", "priority": 2},
+        "on_the_air_tv": {"target": "BFD", "action": "merge", "priority": 2},
+        "airing_today_tv": {"target": "BFD", "action": "merge", "priority": 2}
+      },
+      "key_field": "tmdb_id",
+      "transform": "tmdb_to_bfd"
+    },
+    "flixpatrol": {
+      "data_types": {
+        "titles": {"target": "BFD", "action": "merge", "priority": 2},
+        "rankings": {"target": "VIEWS_TRAINING", "action": "append", "priority": 1},
+        "points": {"target": "VIEWS_TRAINING", "action": "append", "priority": 1},
+        "top10": {"target": "VIEWS_TRAINING", "action": "append", "priority": 1}
+      },
+      "key_field": "imdb_id",
+      "transform": "flixpatrol_to_bfd"
+    },
+    "streaming_availability": {
+      "data_types": {
+        "countries": {"target": "COMPONENTS", "action": "update", "priority": 1},
+        "genres": {"target": "BFD", "action": "skip", "priority": 5},
+        "shows": {"target": "COMPONENTS", "action": "update", "priority": 1}
+      },
+      "key_field": "country",
+      "transform": "streaming_to_components"
+    },
+    "twitter_trends": {
+      "data_types": {
+        "places": {"target": "ABSTRACT_DATA", "action": "append", "priority": 2},
+        "trends": {"target": "ABSTRACT_DATA", "action": "append", "priority": 1}
+      },
+      "signal_type": "social_signals",
+      "transform": "to_abstract_signal"
+    },
+    "seeking_alpha": {
+      "data_types": {
+        "default": {"target": "ABSTRACT_DATA", "action": "append", "priority": 1}
+      },
+      "signal_type": "financial_data",
+      "transform": "to_abstract_signal"
+    },
+    "reuters": {
+      "data_types": {
+        "default": {"target": "ABSTRACT_DATA", "action": "append", "priority": 2}
+      },
+      "signal_type": "news_events",
+      "transform": "to_abstract_signal"
+    },
+    "disney_plus": {
+      "data_types": {
+        "default": {"target": "COMPONENTS", "action": "update", "priority": 2}
+      },
+      "key_field": "imdb_id",
+      "transform": "platform_catalog_to_components"
+    },
+    "imdb": {
+      "data_types": {
+        "default": {"target": "BFD", "action": "merge", "priority": 1}
+      },
+      "key_field": "imdb_id",
+      "transform": "imdb_to_bfd"
+    }
+  },
+
+  "field_mappings": {
+    "tmdb_to_bfd": {
+      "id": "tmdb_id",
+      "title": "title",
+      "name": "title",
+      "original_title": "original_title",
+      "original_name": "original_title",
+      "overview": "overview",
+      "popularity": "tmdb_popularity",
+      "vote_average": "tmdb_score",
+      "vote_count": "tmdb_vote_count",
+      "release_date": "premiere_date",
+      "first_air_date": "premiere_date",
+      "genre_ids": "genres",
+      "adult": "is_adult",
+      "poster_path": "poster",
+      "backdrop_path": "backdrop",
+      "original_language": "original_language"
+    },
+    "flixpatrol_to_bfd": {
+      "imdbId": "imdb_id",
+      "tmdbId": "tmdb_id",
+      "id": "flixpatrol_id",
+      "title": "title",
+      "premiere": "premiere_date",
+      "length": "runtime_minutes",
+      "description": "overview",
+      "budget": "budget",
+      "link": "homepage",
+      "imdbLink": "imdb_url"
+    }
+  },
+
+  "validation_rules": {
+    "imdb_id": {
+      "pattern": "^tt\\d{7,}$",
+      "transform": "ensure_tt_prefix"
+    },
+    "tmdb_id": {
+      "type": "integer",
+      "min": 1
+    },
+    "views": {
+      "type": "integer",
+      "min": 0
+    },
+    "popularity": {
+      "type": "float",
+      "min": 0
+    }
+  },
+
+  "scheduling": {
+    "recommended_frequency": "daily",
+    "optimal_time": "02:00 AM EST",
+    "batch_size": 1000,
+    "max_concurrent_writes": 1
+  },
+
+  "archival": {
+    "enabled": true,
+    "archive_path": "/mnt/c/Users/RoyT6/Downloads/Fresh In!/processed/",
+    "retention_days": 30,
+    "compress": true
+  }
+}

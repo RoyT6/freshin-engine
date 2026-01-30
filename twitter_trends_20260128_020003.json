@@ -1,0 +1,2813 @@
+[
+  {
+    "source": "twitter_trends",
+    "type": "places",
+    "data": {
+      "status": true,
+      "places": [
+        {
+          "parent_id": 0,
+          "woeid": 1,
+          "name": "Worldwide",
+          "slug": null
+        },
+        {
+          "parent_id": 23424775,
+          "woeid": 2972,
+          "name": "Winnipeg",
+          "slug": "winnipeg"
+        },
+        {
+          "parent_id": 23424775,
+          "woeid": 3369,
+          "name": "Ottawa",
+          "slug": "ottawa"
+        },
+        {
+          "parent_id": 23424775,
+          "woeid": 3444,
+          "name": "Quebec",
+          "slug": "quebec"
+        },
+        {
+          "parent_id": 23424775,
+          "woeid": 3534,
+          "name": "Montreal",
+          "slug": "montreal"
+        },
+        {
+          "parent_id": 23424775,
+          "woeid": 4118,
+          "name": "Toronto",
+          "slug": "toronto"
+        },
+        {
+          "parent_id": 23424775,
+          "woeid": 8676,
+          "name": "Edmonton",
+          "slug": "edmonton"
+        },
+        {
+          "parent_id": 23424775,
+          "woeid": 8775,
+          "name": "Calgary",
+          "slug": "calgary"
+        },
+        {
+          "parent_id": 23424775,
+          "woeid": 9807,
+          "name": "Vancouver",
+          "slug": "vancouver"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 12723,
+          "name": "Birmingham",
+          "slug": "birmingham"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 12903,
+          "name": "Blackpool",
+          "slug": "blackpool"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 13383,
+          "name": "Bournemouth",
+          "slug": "bournemouth"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 13911,
+          "name": "Brighton",
+          "slug": "brighton"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 13963,
+          "name": "Bristol",
+          "slug": "bristol"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 15127,
+          "name": "Cardiff",
+          "slug": "cardiff"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 17044,
+          "name": "Coventry",
+          "slug": "coventry"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 18114,
+          "name": "Derby",
+          "slug": "derby"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 19344,
+          "name": "Edinburgh",
+          "slug": "edinburgh"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 21125,
+          "name": "Glasgow",
+          "slug": "glasgow"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 25211,
+          "name": "Hull",
+          "slug": "hull"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 26042,
+          "name": "Leeds",
+          "slug": "leeds"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 26062,
+          "name": "Leicester",
+          "slug": "leicester"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 26734,
+          "name": "Liverpool",
+          "slug": "liverpool"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 28218,
+          "name": "Manchester",
+          "slug": "manchester"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 28869,
+          "name": "Middlesbrough",
+          "slug": "middlesbrough"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 30079,
+          "name": "Newcastle",
+          "slug": "newcastle"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 30720,
+          "name": "Nottingham",
+          "slug": "nottingham"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 32185,
+          "name": "Plymouth",
+          "slug": "plymouth"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 32452,
+          "name": "Portsmouth",
+          "slug": "portsmouth"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 32566,
+          "name": "Preston",
+          "slug": "preston"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 34503,
+          "name": "Sheffield",
+          "slug": "sheffield"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 36240,
+          "name": "Stoke-on-Trent",
+          "slug": "stoke-on-trent"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 36758,
+          "name": "Swansea",
+          "slug": "swansea"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 44418,
+          "name": "London",
+          "slug": "london"
+        },
+        {
+          "parent_id": 23424975,
+          "woeid": 44544,
+          "name": "Belfast",
+          "slug": "belfast"
+        },
+        {
+          "parent_id": 23424800,
+          "woeid": 76456,
+          "name": "Santo Domingo",
+          "slug": "santo-domingo"
+        },
+        {
+          "parent_id": 23424834,
+          "woeid": 83123,
+          "name": "Guatemala City",
+          "slug": "guatemala-city"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 110978,
+          "name": "Acapulco",
+          "slug": "acapulco"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 111579,
+          "name": "Aguascalientes",
+          "slug": "aguascalientes"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 115958,
+          "name": "Chihuahua",
+          "slug": "chihuahua"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 116545,
+          "name": "Mexico City",
+          "slug": "mexico-city"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 116556,
+          "name": "Ciudad Juarez",
+          "slug": "ciudad-juarez"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 116564,
+          "name": "Nezahualc\u00f3yotl",
+          "slug": "nezahualcoyotl"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 117994,
+          "name": "Culiac\u00e1n",
+          "slug": "culiacan"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 118466,
+          "name": "Ecatepec de Morelos",
+          "slug": "ecatepec-de-morelos"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 124162,
+          "name": "Guadalajara",
+          "slug": "guadalajara"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 124785,
+          "name": "Hermosillo",
+          "slug": "hermosillo"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 131068,
+          "name": "Le\u00f3n",
+          "slug": "leon"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 133327,
+          "name": "M\u00e9rida",
+          "slug": "merida"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 133475,
+          "name": "Mexicali",
+          "slug": "mexicali"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 134047,
+          "name": "Monterrey",
+          "slug": "monterrey"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 134091,
+          "name": "Morelia",
+          "slug": "morelia"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 134395,
+          "name": "Naucalpan de Ju\u00e1rez",
+          "slug": "naucalpan-de-juarez"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 137612,
+          "name": "Puebla",
+          "slug": "puebla"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 138045,
+          "name": "Quer\u00e9taro",
+          "slug": "queretaro"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 141272,
+          "name": "Saltillo",
+          "slug": "saltillo"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 144265,
+          "name": "San Luis Potos\u00ed",
+          "slug": "san-luis-potosi"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 149361,
+          "name": "Tijuana",
+          "slug": "tijuana"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 149769,
+          "name": "Toluca",
+          "slug": "toluca"
+        },
+        {
+          "parent_id": 23424900,
+          "woeid": 151582,
+          "name": "Zapopan",
+          "slug": "zapopan"
+        },
+        {
+          "parent_id": 23424747,
+          "woeid": 332471,
+          "name": "Mendoza",
+          "slug": "mendoza"
+        },
+        {
+          "parent_id": 23424782,
+          "woeid": 349859,
+          "name": "Santiago",
+          "slug": "santiago"
+        },
+        {
+          "parent_id": 23424782,
+          "woeid": 349860,
+          "name": "Concepcion",
+          "slug": "concepcion"
+        },
+        {
+          "parent_id": 23424782,
+          "woeid": 349861,
+          "name": "Valparaiso",
+          "slug": "valparaiso"
+        },
+        {
+          "parent_id": 23424787,
+          "woeid": 368148,
+          "name": "Bogot\u00e1",
+          "slug": "bogota"
+        },
+        {
+          "parent_id": 23424787,
+          "woeid": 368149,
+          "name": "Cali",
+          "slug": "cali"
+        },
+        {
+          "parent_id": 23424787,
+          "woeid": 368150,
+          "name": "Medell\u00edn",
+          "slug": "medellin"
+        },
+        {
+          "parent_id": 23424787,
+          "woeid": 368151,
+          "name": "Barranquilla",
+          "slug": "barranquilla"
+        },
+        {
+          "parent_id": 23424801,
+          "woeid": 375732,
+          "name": "Quito",
+          "slug": "quito"
+        },
+        {
+          "parent_id": 23424801,
+          "woeid": 375733,
+          "name": "Guayaquil",
+          "slug": "guayaquil"
+        },
+        {
+          "parent_id": 23424982,
+          "woeid": 395269,
+          "name": "Caracas",
+          "slug": "caracas"
+        },
+        {
+          "parent_id": 23424982,
+          "woeid": 395270,
+          "name": "Maracaibo",
+          "slug": "maracaibo"
+        },
+        {
+          "parent_id": 23424982,
+          "woeid": 395271,
+          "name": "Maracay",
+          "slug": "maracay"
+        },
+        {
+          "parent_id": 23424982,
+          "woeid": 395272,
+          "name": "Valencia",
+          "slug": "valencia"
+        },
+        {
+          "parent_id": 23424982,
+          "woeid": 395273,
+          "name": "Barcelona",
+          "slug": "barcelona"
+        },
+        {
+          "parent_id": 23424982,
+          "woeid": 395275,
+          "name": "Ciudad Guayana",
+          "slug": "ciudad-guayana"
+        },
+        {
+          "parent_id": 23424982,
+          "woeid": 395277,
+          "name": "Turmero",
+          "slug": "turmero"
+        },
+        {
+          "parent_id": 23424919,
+          "woeid": 418440,
+          "name": "Lima",
+          "slug": "lima"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455819,
+          "name": "Bras\u00edlia",
+          "slug": "brasilia"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455820,
+          "name": "Bel\u00e9m",
+          "slug": "belem"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455821,
+          "name": "Belo Horizonte",
+          "slug": "belo-horizonte"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455822,
+          "name": "Curitiba",
+          "slug": "curitiba"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455823,
+          "name": "Porto Alegre",
+          "slug": "porto-alegre"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455824,
+          "name": "Recife",
+          "slug": "recife"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455825,
+          "name": "Rio de Janeiro",
+          "slug": "rio-de-janeiro"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455826,
+          "name": "Salvador",
+          "slug": "salvador"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455827,
+          "name": "S\u00e3o Paulo",
+          "slug": "sao-paulo"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455828,
+          "name": "Campinas",
+          "slug": "campinas"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455830,
+          "name": "Fortaleza",
+          "slug": "fortaleza"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455831,
+          "name": "Goi\u00e2nia",
+          "slug": "goiania"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455833,
+          "name": "Manaus",
+          "slug": "manaus"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455834,
+          "name": "S\u00e3o Lu\u00eds",
+          "slug": "sao-luis"
+        },
+        {
+          "parent_id": 23424768,
+          "woeid": 455867,
+          "name": "Guarulhos",
+          "slug": "guarulhos"
+        },
+        {
+          "parent_id": 23424747,
+          "woeid": 466861,
+          "name": "C\u00f3rdoba",
+          "slug": "cordoba"
+        },
+        {
+          "parent_id": 23424747,
+          "woeid": 466862,
+          "name": "Rosario",
+          "slug": "rosario"
+        },
+        {
+          "parent_id": 23424982,
+          "woeid": 468382,
+          "name": "Barquisimeto",
+          "slug": "barquisimeto"
+        },
+        {
+          "parent_id": 23424982,
+          "woeid": 468384,
+          "name": "Matur\u00edn",
+          "slug": "maturin"
+        },
+        {
+          "parent_id": 23424747,
+          "woeid": 468739,
+          "name": "Buenos Aires",
+          "slug": "buenos-aires"
+        },
+        {
+          "parent_id": 23424923,
+          "woeid": 493417,
+          "name": "Gda\u0144sk",
+          "slug": "gdansk"
+        },
+        {
+          "parent_id": 23424923,
+          "woeid": 502075,
+          "name": "Krak\u00f3w",
+          "slug": "krakow"
+        },
+        {
+          "parent_id": 23424923,
+          "woeid": 505120,
+          "name": "Lodz",
+          "slug": "lodz"
+        },
+        {
+          "parent_id": 23424923,
+          "woeid": 514048,
+          "name": "Pozna\u0144",
+          "slug": "poznan"
+        },
+        {
+          "parent_id": 23424923,
+          "woeid": 523920,
+          "name": "Warsaw",
+          "slug": "warsaw"
+        },
+        {
+          "parent_id": 23424923,
+          "woeid": 526363,
+          "name": "Wroclaw",
+          "slug": "wroclaw"
+        },
+        {
+          "parent_id": 23424750,
+          "woeid": 551801,
+          "name": "Vienna",
+          "slug": "vienna"
+        },
+        {
+          "parent_id": 23424803,
+          "woeid": 560472,
+          "name": "Cork",
+          "slug": "cork"
+        },
+        {
+          "parent_id": 23424803,
+          "woeid": 560743,
+          "name": "Dublin",
+          "slug": "dublin"
+        },
+        {
+          "parent_id": 23424803,
+          "woeid": 560912,
+          "name": "Galway",
+          "slug": "galway"
+        },
+        {
+          "parent_id": 23424819,
+          "woeid": 580778,
+          "name": "Bordeaux",
+          "slug": "bordeaux"
+        },
+        {
+          "parent_id": 23424819,
+          "woeid": 608105,
+          "name": "Lille",
+          "slug": "lille"
+        },
+        {
+          "parent_id": 23424819,
+          "woeid": 609125,
+          "name": "Lyon",
+          "slug": "lyon"
+        },
+        {
+          "parent_id": 23424819,
+          "woeid": 610264,
+          "name": "Marseille",
+          "slug": "marseille"
+        },
+        {
+          "parent_id": 23424819,
+          "woeid": 612977,
+          "name": "Montpellier",
+          "slug": "montpellier"
+        },
+        {
+          "parent_id": 23424819,
+          "woeid": 613858,
+          "name": "Nantes",
+          "slug": "nantes"
+        },
+        {
+          "parent_id": 23424819,
+          "woeid": 615702,
+          "name": "Paris",
+          "slug": "paris"
+        },
+        {
+          "parent_id": 23424819,
+          "woeid": 619163,
+          "name": "Rennes",
+          "slug": "rennes"
+        },
+        {
+          "parent_id": 23424819,
+          "woeid": 627791,
+          "name": "Strasbourg",
+          "slug": "strasbourg"
+        },
+        {
+          "parent_id": 23424819,
+          "woeid": 628886,
+          "name": "Toulouse",
+          "slug": "toulouse"
+        },
+        {
+          "parent_id": 23424829,
+          "woeid": 638242,
+          "name": "Berlin",
+          "slug": "berlin"
+        },
+        {
+          "parent_id": 23424829,
+          "woeid": 641142,
+          "name": "Bremen",
+          "slug": "bremen"
+        },
+        {
+          "parent_id": 23424829,
+          "woeid": 645458,
+          "name": "Dortmund",
+          "slug": "dortmund"
+        },
+        {
+          "parent_id": 23424829,
+          "woeid": 645686,
+          "name": "Dresden",
+          "slug": "dresden"
+        },
+        {
+          "parent_id": 23424829,
+          "woeid": 646099,
+          "name": "Dusseldorf",
+          "slug": "dusseldorf"
+        },
+        {
+          "parent_id": 23424829,
+          "woeid": 648820,
+          "name": "Essen",
+          "slug": "essen"
+        },
+        {
+          "parent_id": 23424829,
+          "woeid": 650272,
+          "name": "Frankfurt",
+          "slug": "frankfurt"
+        },
+        {
+          "parent_id": 23424829,
+          "woeid": 656958,
+          "name": "Hamburg",
+          "slug": "hamburg"
+        },
+        {
+          "parent_id": 23424829,
+          "woeid": 667931,
+          "name": "Cologne",
+          "slug": "cologne"
+        },
+        {
+          "parent_id": 23424829,
+          "woeid": 671072,
+          "name": "Leipzig",
+          "slug": "leipzig"
+        },
+        {
+          "parent_id": 23424829,
+          "woeid": 676757,
+          "name": "Munich",
+          "slug": "munich"
+        },
+        {
+          "parent_id": 23424829,
+          "woeid": 698064,
+          "name": "Stuttgart",
+          "slug": "stuttgart"
+        },
+        {
+          "parent_id": 23424853,
+          "woeid": 711080,
+          "name": "Bologna",
+          "slug": "bologna"
+        },
+        {
+          "parent_id": 23424853,
+          "woeid": 716085,
+          "name": "Genoa",
+          "slug": "genoa"
+        },
+        {
+          "parent_id": 23424853,
+          "woeid": 718345,
+          "name": "Milan",
+          "slug": "milan"
+        },
+        {
+          "parent_id": 23424853,
+          "woeid": 719258,
+          "name": "Naples",
+          "slug": "naples"
+        },
+        {
+          "parent_id": 23424853,
+          "woeid": 719846,
+          "name": "Palermo",
+          "slug": "palermo"
+        },
+        {
+          "parent_id": 23424853,
+          "woeid": 721943,
+          "name": "Rome",
+          "slug": "rome"
+        },
+        {
+          "parent_id": 23424853,
+          "woeid": 725003,
+          "name": "Turin",
+          "slug": "turin"
+        },
+        {
+          "parent_id": 23424909,
+          "woeid": 726874,
+          "name": "Den Haag",
+          "slug": "den-haag"
+        },
+        {
+          "parent_id": 23424909,
+          "woeid": 727232,
+          "name": "Amsterdam",
+          "slug": "amsterdam"
+        },
+        {
+          "parent_id": 23424909,
+          "woeid": 733075,
+          "name": "Rotterdam",
+          "slug": "rotterdam"
+        },
+        {
+          "parent_id": 23424909,
+          "woeid": 734047,
+          "name": "Utrecht",
+          "slug": "utrecht"
+        },
+        {
+          "parent_id": 23424950,
+          "woeid": 753692,
+          "name": "Barcelona",
+          "slug": "barcelona"
+        },
+        {
+          "parent_id": 23424950,
+          "woeid": 754542,
+          "name": "Bilbao",
+          "slug": "bilbao"
+        },
+        {
+          "parent_id": 23424950,
+          "woeid": 764814,
+          "name": "Las Palmas",
+          "slug": "las-palmas"
+        },
+        {
+          "parent_id": 23424950,
+          "woeid": 766273,
+          "name": "Madrid",
+          "slug": "madrid"
+        },
+        {
+          "parent_id": 23424950,
+          "woeid": 766356,
+          "name": "Malaga",
+          "slug": "malaga"
+        },
+        {
+          "parent_id": 23424950,
+          "woeid": 768026,
+          "name": "Murcia",
+          "slug": "murcia"
+        },
+        {
+          "parent_id": 23424950,
+          "woeid": 769293,
+          "name": "Palma",
+          "slug": "palma"
+        },
+        {
+          "parent_id": 23424950,
+          "woeid": 774508,
+          "name": "Seville",
+          "slug": "seville"
+        },
+        {
+          "parent_id": 23424950,
+          "woeid": 776688,
+          "name": "Valencia",
+          "slug": "valencia"
+        },
+        {
+          "parent_id": 23424950,
+          "woeid": 779063,
+          "name": "Zaragoza",
+          "slug": "zaragoza"
+        },
+        {
+          "parent_id": 23424957,
+          "woeid": 782538,
+          "name": "Geneva",
+          "slug": "geneva"
+        },
+        {
+          "parent_id": 23424957,
+          "woeid": 783058,
+          "name": "Lausanne",
+          "slug": "lausanne"
+        },
+        {
+          "parent_id": 23424957,
+          "woeid": 784794,
+          "name": "Zurich",
+          "slug": "zurich"
+        },
+        {
+          "parent_id": 23424765,
+          "woeid": 824382,
+          "name": "Brest",
+          "slug": "brest"
+        },
+        {
+          "parent_id": 23424765,
+          "woeid": 825848,
+          "name": "Grodno",
+          "slug": "grodno"
+        },
+        {
+          "parent_id": 23424765,
+          "woeid": 825978,
+          "name": "Gomel",
+          "slug": "gomel"
+        },
+        {
+          "parent_id": 23424765,
+          "woeid": 834463,
+          "name": "Minsk",
+          "slug": "minsk"
+        },
+        {
+          "parent_id": 23424874,
+          "woeid": 854823,
+          "name": "Riga",
+          "slug": "riga"
+        },
+        {
+          "parent_id": 23424910,
+          "woeid": 857105,
+          "name": "Bergen",
+          "slug": "bergen"
+        },
+        {
+          "parent_id": 23424910,
+          "woeid": 862592,
+          "name": "Oslo",
+          "slug": "oslo"
+        },
+        {
+          "parent_id": 23424954,
+          "woeid": 890869,
+          "name": "Gothenburg",
+          "slug": "gothenburg"
+        },
+        {
+          "parent_id": 23424954,
+          "woeid": 906057,
+          "name": "Stockholm",
+          "slug": "stockholm"
+        },
+        {
+          "parent_id": 23424976,
+          "woeid": 918981,
+          "name": "Dnipropetrovsk",
+          "slug": "dnipropetrovsk"
+        },
+        {
+          "parent_id": 23424976,
+          "woeid": 919163,
+          "name": "Donetsk",
+          "slug": "donetsk"
+        },
+        {
+          "parent_id": 23424976,
+          "woeid": 922137,
+          "name": "Kharkiv",
+          "slug": "kharkiv"
+        },
+        {
+          "parent_id": 23424976,
+          "woeid": 924938,
+          "name": "Kyiv",
+          "slug": "kyiv"
+        },
+        {
+          "parent_id": 23424976,
+          "woeid": 924943,
+          "name": "Lviv",
+          "slug": "lviv"
+        },
+        {
+          "parent_id": 23424976,
+          "woeid": 929398,
+          "name": "Odesa",
+          "slug": "odesa"
+        },
+        {
+          "parent_id": 23424976,
+          "woeid": 939628,
+          "name": "Zaporozhye",
+          "slug": "zaporozhye"
+        },
+        {
+          "parent_id": 23424833,
+          "woeid": 946738,
+          "name": "Athens",
+          "slug": "athens"
+        },
+        {
+          "parent_id": 23424833,
+          "woeid": 963291,
+          "name": "Thessaloniki",
+          "slug": "thessaloniki"
+        },
+        {
+          "parent_id": 23424846,
+          "woeid": 1030077,
+          "name": "Bekasi",
+          "slug": "bekasi"
+        },
+        {
+          "parent_id": 23424846,
+          "woeid": 1032539,
+          "name": "Depok",
+          "slug": "depok"
+        },
+        {
+          "parent_id": 23424846,
+          "woeid": 1040779,
+          "name": "Pekanbaru",
+          "slug": "pekanbaru"
+        },
+        {
+          "parent_id": 23424846,
+          "woeid": 1044316,
+          "name": "Surabaya",
+          "slug": "surabaya"
+        },
+        {
+          "parent_id": 23424846,
+          "woeid": 1046138,
+          "name": "Makassar",
+          "slug": "makassar"
+        },
+        {
+          "parent_id": 23424846,
+          "woeid": 1047180,
+          "name": "Bandung",
+          "slug": "bandung"
+        },
+        {
+          "parent_id": 23424846,
+          "woeid": 1047378,
+          "name": "Jakarta",
+          "slug": "jakarta"
+        },
+        {
+          "parent_id": 23424846,
+          "woeid": 1047908,
+          "name": "Medan",
+          "slug": "medan"
+        },
+        {
+          "parent_id": 23424846,
+          "woeid": 1048059,
+          "name": "Palembang",
+          "slug": "palembang"
+        },
+        {
+          "parent_id": 23424846,
+          "woeid": 1048324,
+          "name": "Semarang",
+          "slug": "semarang"
+        },
+        {
+          "parent_id": 23424846,
+          "woeid": 1048536,
+          "name": "Tangerang",
+          "slug": "tangerang"
+        },
+        {
+          "parent_id": 23424948,
+          "woeid": 1062617,
+          "name": "Singapore",
+          "slug": "singapore"
+        },
+        {
+          "parent_id": 23424748,
+          "woeid": 1098081,
+          "name": "Perth",
+          "slug": "perth"
+        },
+        {
+          "parent_id": 23424748,
+          "woeid": 1099805,
+          "name": "Adelaide",
+          "slug": "adelaide"
+        },
+        {
+          "parent_id": 23424748,
+          "woeid": 1100661,
+          "name": "Brisbane",
+          "slug": "brisbane"
+        },
+        {
+          "parent_id": 23424748,
+          "woeid": 1100968,
+          "name": "Canberra",
+          "slug": "canberra"
+        },
+        {
+          "parent_id": 23424748,
+          "woeid": 1101597,
+          "name": "Darwin",
+          "slug": "darwin"
+        },
+        {
+          "parent_id": 23424748,
+          "woeid": 1103816,
+          "name": "Melbourne",
+          "slug": "melbourne"
+        },
+        {
+          "parent_id": 23424748,
+          "woeid": 1105779,
+          "name": "Sydney",
+          "slug": "sydney"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1110809,
+          "name": "Kitakyushu",
+          "slug": "kitakyushu"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1116753,
+          "name": "Saitama",
+          "slug": "saitama"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1117034,
+          "name": "Chiba",
+          "slug": "chiba"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1117099,
+          "name": "Fukuoka",
+          "slug": "fukuoka"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1117155,
+          "name": "Hamamatsu",
+          "slug": "hamamatsu"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1117227,
+          "name": "Hiroshima",
+          "slug": "hiroshima"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1117502,
+          "name": "Kawasaki",
+          "slug": "kawasaki"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1117545,
+          "name": "Kobe",
+          "slug": "kobe"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1117605,
+          "name": "Kumamoto",
+          "slug": "kumamoto"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1117817,
+          "name": "Nagoya",
+          "slug": "nagoya"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1117881,
+          "name": "Niigata",
+          "slug": "niigata"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1118072,
+          "name": "Sagamihara",
+          "slug": "sagamihara"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1118108,
+          "name": "Sapporo",
+          "slug": "sapporo"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1118129,
+          "name": "Sendai",
+          "slug": "sendai"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1118285,
+          "name": "Takamatsu",
+          "slug": "takamatsu"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1118370,
+          "name": "Tokyo",
+          "slug": "tokyo"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 1118550,
+          "name": "Yokohama",
+          "slug": "yokohama"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 1130853,
+          "name": "Goyang",
+          "slug": "goyang"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 1132094,
+          "name": "Yongin",
+          "slug": "yongin"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 1132444,
+          "name": "Ansan",
+          "slug": "ansan"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 1132445,
+          "name": "Bucheon",
+          "slug": "bucheon"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 1132447,
+          "name": "Busan",
+          "slug": "busan"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 1132449,
+          "name": "Changwon",
+          "slug": "changwon"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 1132466,
+          "name": "Daegu",
+          "slug": "daegu"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 1132481,
+          "name": "Gwangju",
+          "slug": "gwangju"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 1132496,
+          "name": "Incheon",
+          "slug": "incheon"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 1132559,
+          "name": "Seongnam",
+          "slug": "seongnam"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 1132567,
+          "name": "Suwon",
+          "slug": "suwon"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 1132578,
+          "name": "Ulsan",
+          "slug": "ulsan"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 1132599,
+          "name": "Seoul",
+          "slug": "seoul"
+        },
+        {
+          "parent_id": 23424901,
+          "woeid": 1141268,
+          "name": "Kajang",
+          "slug": "kajang"
+        },
+        {
+          "parent_id": 23424901,
+          "woeid": 1154679,
+          "name": "Ipoh",
+          "slug": "ipoh"
+        },
+        {
+          "parent_id": 23424901,
+          "woeid": 1154698,
+          "name": "Johor Bahru",
+          "slug": "johor-bahru"
+        },
+        {
+          "parent_id": 23424901,
+          "woeid": 1154726,
+          "name": "Klang",
+          "slug": "klang"
+        },
+        {
+          "parent_id": 23424901,
+          "woeid": 1154781,
+          "name": "Kuala Lumpur",
+          "slug": "kuala-lumpur"
+        },
+        {
+          "parent_id": 23424934,
+          "woeid": 1167715,
+          "name": "Calocan",
+          "slug": "calocan"
+        },
+        {
+          "parent_id": 23424934,
+          "woeid": 1180689,
+          "name": "Makati",
+          "slug": "makati"
+        },
+        {
+          "parent_id": 23424934,
+          "woeid": 1187115,
+          "name": "Pasig",
+          "slug": "pasig"
+        },
+        {
+          "parent_id": 23424934,
+          "woeid": 1195098,
+          "name": "Taguig",
+          "slug": "taguig"
+        },
+        {
+          "parent_id": 23424934,
+          "woeid": 1198785,
+          "name": "Antipolo",
+          "slug": "antipolo"
+        },
+        {
+          "parent_id": 23424934,
+          "woeid": 1199002,
+          "name": "Cagayan de Oro",
+          "slug": "cagayan-de-oro"
+        },
+        {
+          "parent_id": 23424934,
+          "woeid": 1199079,
+          "name": "Cebu City",
+          "slug": "cebu-city"
+        },
+        {
+          "parent_id": 23424934,
+          "woeid": 1199136,
+          "name": "Davao City",
+          "slug": "davao-city"
+        },
+        {
+          "parent_id": 23424934,
+          "woeid": 1199477,
+          "name": "Manila",
+          "slug": "manila"
+        },
+        {
+          "parent_id": 23424934,
+          "woeid": 1199682,
+          "name": "Quezon City",
+          "slug": "quezon-city"
+        },
+        {
+          "parent_id": 23424934,
+          "woeid": 1199980,
+          "name": "Zamboanga City",
+          "slug": "zamboanga-city"
+        },
+        {
+          "parent_id": 23424960,
+          "woeid": 1225448,
+          "name": "Bangkok",
+          "slug": "bangkok"
+        },
+        {
+          "parent_id": 23424984,
+          "woeid": 1236594,
+          "name": "Hanoi",
+          "slug": "hanoi"
+        },
+        {
+          "parent_id": 23424984,
+          "woeid": 1236690,
+          "name": "Hai Phong",
+          "slug": "hai-phong"
+        },
+        {
+          "parent_id": 23424984,
+          "woeid": 1252351,
+          "name": "Can Tho",
+          "slug": "can-tho"
+        },
+        {
+          "parent_id": 23424984,
+          "woeid": 1252376,
+          "name": "Da Nang",
+          "slug": "da-nang"
+        },
+        {
+          "parent_id": 23424984,
+          "woeid": 1252431,
+          "name": "Ho Chi Minh City",
+          "slug": "ho-chi-minh-city"
+        },
+        {
+          "parent_id": 23424740,
+          "woeid": 1253079,
+          "name": "Algiers",
+          "slug": "algiers"
+        },
+        {
+          "parent_id": 23424824,
+          "woeid": 1326075,
+          "name": "Accra",
+          "slug": "accra"
+        },
+        {
+          "parent_id": 23424824,
+          "woeid": 1330595,
+          "name": "Kumasi",
+          "slug": "kumasi"
+        },
+        {
+          "parent_id": 23424908,
+          "woeid": 1387660,
+          "name": "Benin City",
+          "slug": "benin-city"
+        },
+        {
+          "parent_id": 23424908,
+          "woeid": 1393672,
+          "name": "Ibadan",
+          "slug": "ibadan"
+        },
+        {
+          "parent_id": 23424908,
+          "woeid": 1396439,
+          "name": "Kaduna",
+          "slug": "kaduna"
+        },
+        {
+          "parent_id": 23424908,
+          "woeid": 1396803,
+          "name": "Kano",
+          "slug": "kano"
+        },
+        {
+          "parent_id": 23424908,
+          "woeid": 1398823,
+          "name": "Lagos",
+          "slug": "lagos"
+        },
+        {
+          "parent_id": 23424908,
+          "woeid": 1404447,
+          "name": "Port Harcourt",
+          "slug": "port-harcourt"
+        },
+        {
+          "parent_id": 23424802,
+          "woeid": 1521643,
+          "name": "Giza",
+          "slug": "giza"
+        },
+        {
+          "parent_id": 23424802,
+          "woeid": 1521894,
+          "name": "Cairo",
+          "slug": "cairo"
+        },
+        {
+          "parent_id": 23424802,
+          "woeid": 1522006,
+          "name": "Alexandria",
+          "slug": "alexandria"
+        },
+        {
+          "parent_id": 23424863,
+          "woeid": 1528335,
+          "name": "Mombasa",
+          "slug": "mombasa"
+        },
+        {
+          "parent_id": 23424863,
+          "woeid": 1528488,
+          "name": "Nairobi",
+          "slug": "nairobi"
+        },
+        {
+          "parent_id": 23424942,
+          "woeid": 1580913,
+          "name": "Durban",
+          "slug": "durban"
+        },
+        {
+          "parent_id": 23424942,
+          "woeid": 1582504,
+          "name": "Johannesburg",
+          "slug": "johannesburg"
+        },
+        {
+          "parent_id": 23424942,
+          "woeid": 1586614,
+          "name": "Port Elizabeth",
+          "slug": "port-elizabeth"
+        },
+        {
+          "parent_id": 23424942,
+          "woeid": 1586638,
+          "name": "Pretoria",
+          "slug": "pretoria"
+        },
+        {
+          "parent_id": 23424942,
+          "woeid": 1587677,
+          "name": "Soweto",
+          "slug": "soweto"
+        },
+        {
+          "parent_id": 23424942,
+          "woeid": 1591691,
+          "name": "Cape Town",
+          "slug": "cape-town"
+        },
+        {
+          "parent_id": 23424938,
+          "woeid": 1937801,
+          "name": "Medina",
+          "slug": "medina"
+        },
+        {
+          "parent_id": 23424938,
+          "woeid": 1939574,
+          "name": "Dammam",
+          "slug": "dammam"
+        },
+        {
+          "parent_id": 23424938,
+          "woeid": 1939753,
+          "name": "Riyadh",
+          "slug": "riyadh"
+        },
+        {
+          "parent_id": 23424938,
+          "woeid": 1939873,
+          "name": "Jeddah",
+          "slug": "jeddah"
+        },
+        {
+          "parent_id": 23424938,
+          "woeid": 1939897,
+          "name": "Mecca",
+          "slug": "mecca"
+        },
+        {
+          "parent_id": 23424738,
+          "woeid": 1940119,
+          "name": "Sharjah",
+          "slug": "sharjah"
+        },
+        {
+          "parent_id": 23424738,
+          "woeid": 1940330,
+          "name": "Abu Dhabi",
+          "slug": "abu-dhabi"
+        },
+        {
+          "parent_id": 23424738,
+          "woeid": 1940345,
+          "name": "Dubai",
+          "slug": "dubai"
+        },
+        {
+          "parent_id": 23424852,
+          "woeid": 1967449,
+          "name": "Haifa",
+          "slug": "haifa"
+        },
+        {
+          "parent_id": 23424852,
+          "woeid": 1968212,
+          "name": "Tel Aviv",
+          "slug": "tel-aviv"
+        },
+        {
+          "parent_id": 23424852,
+          "woeid": 1968222,
+          "name": "Jerusalem",
+          "slug": "jerusalem"
+        },
+        {
+          "parent_id": 23424860,
+          "woeid": 1968902,
+          "name": "Amman",
+          "slug": "amman"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 1997422,
+          "name": "Chelyabinsk",
+          "slug": "chelyabinsk"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2018708,
+          "name": "Khabarovsk",
+          "slug": "khabarovsk"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2028717,
+          "name": "Krasnodar",
+          "slug": "krasnodar"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2029043,
+          "name": "Krasnoyarsk",
+          "slug": "krasnoyarsk"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2077746,
+          "name": "Samara",
+          "slug": "samara"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2108210,
+          "name": "Voronezh",
+          "slug": "voronezh"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2112237,
+          "name": "Yekaterinburg",
+          "slug": "yekaterinburg"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2121040,
+          "name": "Irkutsk",
+          "slug": "irkutsk"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2121267,
+          "name": "Kazan",
+          "slug": "kazan"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2122265,
+          "name": "Moscow",
+          "slug": "moscow"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2122471,
+          "name": "Nizhny Novgorod",
+          "slug": "nizhny-novgorod"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2122541,
+          "name": "Novosibirsk",
+          "slug": "novosibirsk"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2122641,
+          "name": "Omsk",
+          "slug": "omsk"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2122814,
+          "name": "Perm",
+          "slug": "perm"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2123177,
+          "name": "Rostov-on-Don",
+          "slug": "rostov-on-don"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2123260,
+          "name": "Saint Petersburg",
+          "slug": "saint-petersburg"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2124045,
+          "name": "Ufa",
+          "slug": "ufa"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2124288,
+          "name": "Vladivostok",
+          "slug": "vladivostok"
+        },
+        {
+          "parent_id": 23424936,
+          "woeid": 2124298,
+          "name": "Volgograd",
+          "slug": "volgograd"
+        },
+        {
+          "parent_id": 23424922,
+          "woeid": 2211096,
+          "name": "Karachi",
+          "slug": "karachi"
+        },
+        {
+          "parent_id": 23424922,
+          "woeid": 2211177,
+          "name": "Lahore",
+          "slug": "lahore"
+        },
+        {
+          "parent_id": 23424922,
+          "woeid": 2211269,
+          "name": "Multan",
+          "slug": "multan"
+        },
+        {
+          "parent_id": 23424922,
+          "woeid": 2211387,
+          "name": "Rawalpindi",
+          "slug": "rawalpindi"
+        },
+        {
+          "parent_id": 23424922,
+          "woeid": 2211574,
+          "name": "Faisalabad",
+          "slug": "faisalabad"
+        },
+        {
+          "parent_id": 23424898,
+          "woeid": 2268284,
+          "name": "Muscat",
+          "slug": "muscat"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2282863,
+          "name": "Nagpur",
+          "slug": "nagpur"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295377,
+          "name": "Lucknow",
+          "slug": "lucknow"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295378,
+          "name": "Kanpur",
+          "slug": "kanpur"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295381,
+          "name": "Patna",
+          "slug": "patna"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295383,
+          "name": "Ranchi",
+          "slug": "ranchi"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295386,
+          "name": "Kolkata",
+          "slug": "kolkata"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295387,
+          "name": "Srinagar",
+          "slug": "srinagar"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295388,
+          "name": "Amritsar",
+          "slug": "amritsar"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295401,
+          "name": "Jaipur",
+          "slug": "jaipur"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295402,
+          "name": "Ahmedabad",
+          "slug": "ahmedabad"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295404,
+          "name": "Rajkot",
+          "slug": "rajkot"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295405,
+          "name": "Surat",
+          "slug": "surat"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295407,
+          "name": "Bhopal",
+          "slug": "bhopal"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295408,
+          "name": "Indore",
+          "slug": "indore"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295410,
+          "name": "Thane",
+          "slug": "thane"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295411,
+          "name": "Mumbai",
+          "slug": "mumbai"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295412,
+          "name": "Pune",
+          "slug": "pune"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295414,
+          "name": "Hyderabad",
+          "slug": "hyderabad"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295420,
+          "name": "Bangalore",
+          "slug": "bangalore"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 2295424,
+          "name": "Chennai",
+          "slug": "chennai"
+        },
+        {
+          "parent_id": 23424969,
+          "woeid": 2323778,
+          "name": "Mersin",
+          "slug": "mersin"
+        },
+        {
+          "parent_id": 23424969,
+          "woeid": 2343678,
+          "name": "Adana",
+          "slug": "adana"
+        },
+        {
+          "parent_id": 23424969,
+          "woeid": 2343732,
+          "name": "Ankara",
+          "slug": "ankara"
+        },
+        {
+          "parent_id": 23424969,
+          "woeid": 2343733,
+          "name": "Antalya",
+          "slug": "antalya"
+        },
+        {
+          "parent_id": 23424969,
+          "woeid": 2343843,
+          "name": "Bursa",
+          "slug": "bursa"
+        },
+        {
+          "parent_id": 23424969,
+          "woeid": 2343932,
+          "name": "Diyarbak\u0131r",
+          "slug": "diyarbakir"
+        },
+        {
+          "parent_id": 23424969,
+          "woeid": 2343980,
+          "name": "Eski\u015fehir",
+          "slug": "eskisehir"
+        },
+        {
+          "parent_id": 23424969,
+          "woeid": 2343999,
+          "name": "Gaziantep",
+          "slug": "gaziantep"
+        },
+        {
+          "parent_id": 23424969,
+          "woeid": 2344116,
+          "name": "Istanbul",
+          "slug": "istanbul"
+        },
+        {
+          "parent_id": 23424969,
+          "woeid": 2344117,
+          "name": "Izmir",
+          "slug": "izmir"
+        },
+        {
+          "parent_id": 23424969,
+          "woeid": 2344174,
+          "name": "Kayseri",
+          "slug": "kayseri"
+        },
+        {
+          "parent_id": 23424969,
+          "woeid": 2344210,
+          "name": "Konya",
+          "slug": "konya"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 2345896,
+          "name": "Okinawa",
+          "slug": "okinawa"
+        },
+        {
+          "parent_id": 23424868,
+          "woeid": 2345975,
+          "name": "Daejeon",
+          "slug": "daejeon"
+        },
+        {
+          "parent_id": 23424916,
+          "woeid": 2348079,
+          "name": "Auckland",
+          "slug": "auckland"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2352824,
+          "name": "Albuquerque",
+          "slug": "albuquerque"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2357024,
+          "name": "Atlanta",
+          "slug": "atlanta"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2357536,
+          "name": "Austin",
+          "slug": "austin"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2358820,
+          "name": "Baltimore",
+          "slug": "baltimore"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2359991,
+          "name": "Baton Rouge",
+          "slug": "baton-rouge"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2364559,
+          "name": "Birmingham",
+          "slug": "birmingham"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2367105,
+          "name": "Boston",
+          "slug": "boston"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2378426,
+          "name": "Charlotte",
+          "slug": "charlotte"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2379574,
+          "name": "Chicago",
+          "slug": "chicago"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2380358,
+          "name": "Cincinnati",
+          "slug": "cincinnati"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2381475,
+          "name": "Cleveland",
+          "slug": "cleveland"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2383489,
+          "name": "Colorado Springs",
+          "slug": "colorado-springs"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2383660,
+          "name": "Columbus",
+          "slug": "columbus"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2388929,
+          "name": "Dallas-Ft. Worth",
+          "slug": "dallas-ft-worth"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2391279,
+          "name": "Denver",
+          "slug": "denver"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2391585,
+          "name": "Detroit",
+          "slug": "detroit"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2397816,
+          "name": "El Paso",
+          "slug": "el-paso"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2407517,
+          "name": "Fresno",
+          "slug": "fresno"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2414469,
+          "name": "Greensboro",
+          "slug": "greensboro"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2418046,
+          "name": "Harrisburg",
+          "slug": "harrisburg"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2423945,
+          "name": "Honolulu",
+          "slug": "honolulu"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2424766,
+          "name": "Houston",
+          "slug": "houston"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2427032,
+          "name": "Indianapolis",
+          "slug": "indianapolis"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2428184,
+          "name": "Jackson",
+          "slug": "jackson"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2428344,
+          "name": "Jacksonville",
+          "slug": "jacksonville"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2430683,
+          "name": "Kansas City",
+          "slug": "kansas-city"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2436704,
+          "name": "Las Vegas",
+          "slug": "las-vegas"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2441472,
+          "name": "Long Beach",
+          "slug": "long-beach"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2442047,
+          "name": "Los Angeles",
+          "slug": "los-angeles"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2442327,
+          "name": "Louisville",
+          "slug": "louisville"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2449323,
+          "name": "Memphis",
+          "slug": "memphis"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2449808,
+          "name": "Mesa",
+          "slug": "mesa"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2450022,
+          "name": "Miami",
+          "slug": "miami"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2451822,
+          "name": "Milwaukee",
+          "slug": "milwaukee"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2452078,
+          "name": "Minneapolis",
+          "slug": "minneapolis"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2457170,
+          "name": "Nashville",
+          "slug": "nashville"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2458410,
+          "name": "New Haven",
+          "slug": "new-haven"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2458833,
+          "name": "New Orleans",
+          "slug": "new-orleans"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2459115,
+          "name": "New York",
+          "slug": "new-york"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2460389,
+          "name": "Norfolk",
+          "slug": "norfolk"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2464592,
+          "name": "Oklahoma City",
+          "slug": "oklahoma-city"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2465512,
+          "name": "Omaha",
+          "slug": "omaha"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2466256,
+          "name": "Orlando",
+          "slug": "orlando"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2471217,
+          "name": "Philadelphia",
+          "slug": "philadelphia"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2471390,
+          "name": "Phoenix",
+          "slug": "phoenix"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2473224,
+          "name": "Pittsburgh",
+          "slug": "pittsburgh"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2475687,
+          "name": "Portland",
+          "slug": "portland"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2477058,
+          "name": "Providence",
+          "slug": "providence"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2478307,
+          "name": "Raleigh",
+          "slug": "raleigh"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2480894,
+          "name": "Richmond",
+          "slug": "richmond"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2486340,
+          "name": "Sacramento",
+          "slug": "sacramento"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2486982,
+          "name": "St. Louis",
+          "slug": "st-louis"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2487610,
+          "name": "Salt Lake City",
+          "slug": "salt-lake-city"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2487796,
+          "name": "San Antonio",
+          "slug": "san-antonio"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2487889,
+          "name": "San Diego",
+          "slug": "san-diego"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2487956,
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2488042,
+          "name": "San Jose",
+          "slug": "san-jose"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2490383,
+          "name": "Seattle",
+          "slug": "seattle"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2503713,
+          "name": "Tallahassee",
+          "slug": "tallahassee"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2503863,
+          "name": "Tampa",
+          "slug": "tampa"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2508428,
+          "name": "Tucson",
+          "slug": "tucson"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2512636,
+          "name": "Virginia Beach",
+          "slug": "virginia-beach"
+        },
+        {
+          "parent_id": 23424977,
+          "woeid": 2514815,
+          "name": "Washington",
+          "slug": "washington"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 15015370,
+          "name": "Osaka",
+          "slug": "osaka"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 15015372,
+          "name": "Kyoto",
+          "slug": "kyoto"
+        },
+        {
+          "parent_id": 23424848,
+          "woeid": 20070458,
+          "name": "Delhi",
+          "slug": "delhi"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424738,
+          "name": "United Arab Emirates",
+          "slug": "united-arab-emirates"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424740,
+          "name": "Algeria",
+          "slug": "algeria"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424747,
+          "name": "Argentina",
+          "slug": "argentina"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424748,
+          "name": "Australia",
+          "slug": "australia"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424750,
+          "name": "Austria",
+          "slug": "austria"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424753,
+          "name": "Bahrain",
+          "slug": "bahrain"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424757,
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424765,
+          "name": "Belarus",
+          "slug": "belarus"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424768,
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424775,
+          "name": "Canada",
+          "slug": "canada"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424782,
+          "name": "Chile",
+          "slug": "chile"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424787,
+          "name": "Colombia",
+          "slug": "colombia"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424796,
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424800,
+          "name": "Dominican Republic",
+          "slug": "dominican-republic"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424801,
+          "name": "Ecuador",
+          "slug": "ecuador"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424802,
+          "name": "Egypt",
+          "slug": "egypt"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424803,
+          "name": "Ireland",
+          "slug": "ireland"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424819,
+          "name": "France",
+          "slug": "france"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424824,
+          "name": "Ghana",
+          "slug": "ghana"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424829,
+          "name": "Germany",
+          "slug": "germany"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424833,
+          "name": "Greece",
+          "slug": "greece"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424834,
+          "name": "Guatemala",
+          "slug": "guatemala"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424846,
+          "name": "Indonesia",
+          "slug": "indonesia"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424848,
+          "name": "India",
+          "slug": "india"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424852,
+          "name": "Israel",
+          "slug": "israel"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424853,
+          "name": "Italy",
+          "slug": "italy"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424856,
+          "name": "Japan",
+          "slug": "japan"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424860,
+          "name": "Jordan",
+          "slug": "jordan"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424863,
+          "name": "Kenya",
+          "slug": "kenya"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424868,
+          "name": "Korea",
+          "slug": "korea"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424870,
+          "name": "Kuwait",
+          "slug": "kuwait"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424873,
+          "name": "Lebanon",
+          "slug": "lebanon"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424874,
+          "name": "Latvia",
+          "slug": "latvia"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424898,
+          "name": "Oman",
+          "slug": "oman"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424900,
+          "name": "Mexico",
+          "slug": "mexico"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424901,
+          "name": "Malaysia",
+          "slug": "malaysia"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424908,
+          "name": "Nigeria",
+          "slug": "nigeria"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424909,
+          "name": "Netherlands",
+          "slug": "netherlands"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424910,
+          "name": "Norway",
+          "slug": "norway"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424916,
+          "name": "New Zealand",
+          "slug": "new-zealand"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424919,
+          "name": "Peru",
+          "slug": "peru"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424922,
+          "name": "Pakistan",
+          "slug": "pakistan"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424923,
+          "name": "Poland",
+          "slug": "poland"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424924,
+          "name": "Panama",
+          "slug": "panama"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424925,
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424930,
+          "name": "Qatar",
+          "slug": "qatar"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424934,
+          "name": "Philippines",
+          "slug": "philippines"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424935,
+          "name": "Puerto Rico",
+          "slug": "puerto-rico"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424936,
+          "name": "Russia",
+          "slug": "russia"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424938,
+          "name": "Saudi Arabia",
+          "slug": "saudi-arabia"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424942,
+          "name": "South Africa",
+          "slug": "south-africa"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424948,
+          "name": "Singapore",
+          "slug": "singapore"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424950,
+          "name": "Spain",
+          "slug": "spain"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424954,
+          "name": "Sweden",
+          "slug": "sweden"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424957,
+          "name": "Switzerland",
+          "slug": "switzerland"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424960,
+          "name": "Thailand",
+          "slug": "thailand"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424969,
+          "name": "Turkey",
+          "slug": "turkey"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424975,
+          "name": "United Kingdom",
+          "slug": "united-kingdom"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424976,
+          "name": "Ukraine",
+          "slug": "ukraine"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424977,
+          "name": "United States",
+          "slug": "united-states"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424982,
+          "name": "Venezuela",
+          "slug": "venezuela"
+        },
+        {
+          "parent_id": 1,
+          "woeid": 23424984,
+          "name": "Vietnam",
+          "slug": "vietnam"
+        },
+        {
+          "parent_id": 23424901,
+          "woeid": 56013632,
+          "name": "Petaling",
+          "slug": "petaling"
+        },
+        {
+          "parent_id": 23424901,
+          "woeid": 56013645,
+          "name": "Hulu Langat",
+          "slug": "hulu-langat"
+        },
+        {
+          "parent_id": 23424938,
+          "woeid": 56120136,
+          "name": "Ahsa",
+          "slug": "ahsa"
+        },
+        {
+          "parent_id": 23424856,
+          "woeid": 90036018,
+          "name": "Okayama",
+          "slug": "okayama"
+        }
+      ]
+    }
+  }
+]

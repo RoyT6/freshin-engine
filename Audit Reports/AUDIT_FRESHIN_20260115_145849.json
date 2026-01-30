@@ -1,0 +1,4038 @@
+{
+  "run_id": "FRESHIN_20260115_145849",
+  "run_date": "2026-01-15",
+  "run_time": "14:58:49",
+  "mode": "DRY RUN",
+  "duration_seconds": 3.920551,
+  "files_discovered": 10,
+  "files_processed": 10,
+  "total_records_in": 1579,
+  "total_records_routed": 1579,
+  "stats": {
+    "bfd_updates": 1046,
+    "bfd_new": 134,
+    "star_schema_updates": 0,
+    "views_training_appends": 0,
+    "abstract_data_appends": 22,
+    "components_updates": 130,
+    "platform_changes_processed": 500,
+    "flixpatrol_titles_processed": 600,
+    "skipped": 0
+  },
+  "routing_summary": {
+    "title_metadata -> BFD": 439,
+    "trending_data -> BFD": 4,
+    "platform_avail -> COMPONENTS": 14,
+    "platform_changes -> PLATFORM_MASTER": 500,
+    "financial_data -> ABSTRACT_DATA": 14,
+    "social_signals -> ABSTRACT_DATA": 2,
+    "news_events -> ABSTRACT_DATA": 6,
+    "flixpatrol_titles -> BFD": 600
+  },
+  "skipped_files": [],
+  "skipped_batches": [],
+  "successful_merges": [
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 0,
+      "new_records": 0,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "No records to merge"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "1208348",
+        "1084242",
+        "83533",
+        "1272837",
+        "1242898"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "95479",
+        "66732",
+        "223530",
+        "106379",
+        "250307"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "1242898",
+        "1242501",
+        "83533",
+        "62029",
+        "1252037"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "66732",
+        "79744",
+        "1622",
+        "2734",
+        "1416"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "1368166",
+        "1228246",
+        "1419406",
+        "1208348",
+        "840464"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "83533",
+        "1368166",
+        "1034716",
+        "1131759",
+        "1228246"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "79744",
+        "2734",
+        "1416",
+        "95479",
+        "106379"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "2734",
+        "1416",
+        "549",
+        "250307",
+        "22980"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "278",
+        "238",
+        "240",
+        "424",
+        "389"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "1396",
+        "301507",
+        "94605",
+        "246",
+        "250307"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 1 records (0 new, 1 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 1 records (0 new, 1 updates)"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ie.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "IE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ie.json with 13 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_gb.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "GB"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_gb.json with 16 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_dk.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "DK"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_dk.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_si.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "SI"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_si.json with 5 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_pa.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "PA"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_pa.json with 12 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_gr.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "GR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_gr.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_md.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "MD"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_md.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_lt.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "LT"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_lt.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_pe.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "PE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_pe.json with 5 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_il.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "IL"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_il.json with 6 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_pt.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "PT"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_pt.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ch.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "CH"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ch.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_hk.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "HK"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_hk.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_fr.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "FR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_fr.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ro.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "RO"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ro.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_my.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "MY"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_my.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ph.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "PH"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ph.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ua.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "UA"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ua.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_az.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "AZ"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_az.json with 1 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_at.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "AT"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_at.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_it.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "IT"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_it.json with 13 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_za.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "ZA"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_za.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_jp.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "JP"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_jp.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_nl.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "NL"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_nl.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_be.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "BE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_be.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ee.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "EE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ee.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_no.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "NO"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_no.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_es.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "ES"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_es.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_tr.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "TR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_tr.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ec.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "EC"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ec.json with 6 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_th.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "TH"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_th.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_hr.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "HR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_hr.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_nz.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "NZ"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_nz.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_cy.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "CY"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_cy.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_is.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "IS"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_is.json with 6 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_sg.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "SG"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_sg.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_hu.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "HU"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_hu.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_bg.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "BG"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_bg.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_au.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "AU"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_au.json with 12 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ae.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "AE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ae.json with 6 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_fi.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "FI"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_fi.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_cz.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "CZ"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_cz.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_in.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "IN"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_in.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ar.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "AR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ar.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_mx.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "MX"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_mx.json with 12 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ru.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "RU"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ru.json with 1 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_co.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "CO"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_co.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_kr.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "KR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_kr.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_rs.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "RS"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_rs.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_us.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "US"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_us.json with 17 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_mk.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "MK"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_mk.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ca.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "CA"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ca.json with 15 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_pl.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "PL"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_pl.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_id.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "ID"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_id.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_sk.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "SK"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_sk.json with 3 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_se.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "SE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_se.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_br.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "BR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_br.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_vn.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "VN"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_vn.json with 6 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_cl.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "CL"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_cl.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_de.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "DE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_de.json with 13 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt0200276",
+        "tt14364480",
+        "tt29521467",
+        "tt4873118",
+        "tt33806512"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt2004332",
+        "tt0348914",
+        "tt1190708",
+        "tt0133157",
+        "tt3815642"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt38866859",
+        "tt36956617",
+        "tt38207496",
+        "tt22492826",
+        "tt23739418"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt6932874",
+        "tt7978672",
+        "tt2494362",
+        "tt28093628",
+        "tt35495052"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 24 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt22376154",
+        "tt37671699",
+        "tt0852713",
+        "tt0117108",
+        "tt0810913"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt5481010",
+        "tt1321861",
+        "tt0090738",
+        "tt5912150",
+        "tt9202550"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt3205302",
+        "tt35047134",
+        "tt36820596",
+        "tt29232158",
+        "tt30446847"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 24 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt5052448",
+        "tt0338013",
+        "tt0297284",
+        "tt4876134",
+        "tt0415141"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt34614991",
+        "tt0111893",
+        "tt34730597",
+        "tt38673135",
+        "tt34615019"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt5052448",
+        "tt0338013",
+        "tt0338348",
+        "tt28554021",
+        "tt8155288"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 21,
+      "new_records": 7,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "action",
+        "adventure",
+        "animation",
+        "comedy",
+        "crime"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 21 records (7 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 0,
+      "new_records": 0,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "No records to merge"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_meta.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "META"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_meta.json with 0 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_meta.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "META"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_meta.json with 0 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_meta.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "META"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_meta.json with 0 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_meta.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "META"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_meta.json with 0 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_meta.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "META"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_meta.json with 0 streaming services"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 300,
+      "new_records": 0,
+      "updated_records": 0,
+      "skipped_records": 300,
+      "key_field": "imdb_id",
+      "sample_keys": [],
+      "fields_updated": [
+        "flixpatrol_id",
+        "imdb_id",
+        "tmdb_id",
+        "title",
+        "premiere_date",
+        "overview",
+        "runtime_minutes",
+        "budget",
+        "box_office",
+        "production_countries",
+        "max_seasons"
+      ],
+      "reason": "[DRY RUN] Would merge 0 FlixPatrol titles (0 new, 0 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 300,
+      "new_records": 0,
+      "updated_records": 0,
+      "skipped_records": 300,
+      "key_field": "imdb_id",
+      "sample_keys": [],
+      "fields_updated": [
+        "flixpatrol_id",
+        "imdb_id",
+        "tmdb_id",
+        "title",
+        "premiere_date",
+        "overview",
+        "runtime_minutes",
+        "budget",
+        "box_office",
+        "production_countries",
+        "max_seasons"
+      ],
+      "reason": "[DRY RUN] Would merge 0 FlixPatrol titles (0 new, 0 updates)"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_meta.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "META"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_meta.json with 0 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_meta.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "META"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_meta.json with 0 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_meta.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "META"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_meta.json with 0 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_meta.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "META"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_meta.json with 0 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_meta.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "META"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_meta.json with 0 streaming services"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 0,
+      "new_records": 0,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "No records to merge"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ie.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "IE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ie.json with 13 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_gb.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "GB"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_gb.json with 16 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_dk.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "DK"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_dk.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_si.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "SI"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_si.json with 5 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_pa.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "PA"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_pa.json with 12 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_gr.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "GR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_gr.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_md.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "MD"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_md.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_lt.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "LT"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_lt.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_pe.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "PE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_pe.json with 5 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_il.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "IL"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_il.json with 6 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_pt.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "PT"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_pt.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ch.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "CH"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ch.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_hk.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "HK"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_hk.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_fr.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "FR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_fr.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ro.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "RO"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ro.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_my.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "MY"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_my.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ph.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "PH"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ph.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ua.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "UA"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ua.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_az.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "AZ"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_az.json with 1 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_at.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "AT"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_at.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_it.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "IT"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_it.json with 13 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_za.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "ZA"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_za.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_jp.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "JP"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_jp.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_nl.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "NL"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_nl.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_be.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "BE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_be.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ee.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "EE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ee.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_no.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "NO"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_no.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_es.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "ES"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_es.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_tr.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "TR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_tr.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ec.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "EC"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ec.json with 6 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_th.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "TH"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_th.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_hr.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "HR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_hr.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_nz.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "NZ"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_nz.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_cy.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "CY"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_cy.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_is.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "IS"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_is.json with 6 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_sg.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "SG"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_sg.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_hu.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "HU"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_hu.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_bg.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "BG"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_bg.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_au.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "AU"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_au.json with 12 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ae.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "AE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ae.json with 6 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_fi.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "FI"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_fi.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_cz.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "CZ"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_cz.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_in.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "IN"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_in.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ar.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "AR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ar.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_mx.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "MX"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_mx.json with 12 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ru.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "RU"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ru.json with 1 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_co.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "CO"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_co.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_kr.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "KR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_kr.json with 7 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_rs.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "RS"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_rs.json with 9 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_us.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "US"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_us.json with 17 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_mk.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "MK"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_mk.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_ca.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "CA"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_ca.json with 15 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_pl.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "PL"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_pl.json with 10 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_id.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "ID"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_id.json with 8 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_sk.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "SK"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_sk.json with 3 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_se.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "SE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_se.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_br.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "BR"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_br.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_vn.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "VN"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_vn.json with 6 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_cl.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "CL"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_cl.json with 11 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/streaming_lookup_de.json",
+      "action": "update",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "country",
+      "sample_keys": [
+        "DE"
+      ],
+      "fields_updated": [
+        "services",
+        "countryCode",
+        "name",
+        "_last_updated"
+      ],
+      "reason": "[DRY RUN] Would update streaming_lookup_de.json with 13 streaming services"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt0200276",
+        "tt14364480",
+        "tt29521467",
+        "tt4873118",
+        "tt33806512"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt2004332",
+        "tt0348914",
+        "tt1190708",
+        "tt0133157",
+        "tt3815642"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt38866859",
+        "tt36956617",
+        "tt38207496",
+        "tt22492826",
+        "tt23739418"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt6932874",
+        "tt7978672",
+        "tt2494362",
+        "tt28093628",
+        "tt35495052"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 24 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt22376154",
+        "tt37671699",
+        "tt0852713",
+        "tt0117108",
+        "tt0810913"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt5481010",
+        "tt1321861",
+        "tt0090738",
+        "tt5912150",
+        "tt9202550"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt3205302",
+        "tt35047134",
+        "tt36820596",
+        "tt29232158",
+        "tt30446847"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 24 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt5052448",
+        "tt0338013",
+        "tt0297284",
+        "tt4876134",
+        "tt0415141"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt34614991",
+        "tt0111893",
+        "tt34730597",
+        "tt38673135",
+        "tt34615019"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Components/platform_availability_current.json",
+      "action": "update",
+      "total_records": 25,
+      "new_records": 25,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "imdb_id",
+      "sample_keys": [
+        "tt5052448",
+        "tt0338013",
+        "tt0338348",
+        "tt28554021",
+        "tt8155288"
+      ],
+      "fields_updated": [
+        "platforms",
+        "last_seen",
+        "change_type"
+      ],
+      "reason": "[DRY RUN] Would update platform availability for 25 titles"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 21,
+      "new_records": 7,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "action",
+        "adventure",
+        "animation",
+        "comedy",
+        "crime"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 21 records (7 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "1208348",
+        "1084242",
+        "83533",
+        "1272837",
+        "1242898"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "95479",
+        "66732",
+        "223530",
+        "106379",
+        "250307"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "1242898",
+        "1242501",
+        "83533",
+        "62029",
+        "1252037"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "66732",
+        "79744",
+        "1622",
+        "2734",
+        "1416"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "1368166",
+        "1228246",
+        "1419406",
+        "1208348",
+        "840464"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "83533",
+        "1368166",
+        "1034716",
+        "1131759",
+        "1228246"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "79744",
+        "2734",
+        "1416",
+        "95479",
+        "106379"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "2734",
+        "1416",
+        "549",
+        "250307",
+        "22980"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "278",
+        "238",
+        "240",
+        "424",
+        "389"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 20,
+      "new_records": 6,
+      "updated_records": 14,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [
+        "1396",
+        "301507",
+        "94605",
+        "246",
+        "250307"
+      ],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 20 records (6 new, 14 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 1 records (0 new, 1 updates)"
+    },
+    {
+      "target": "Cranberry_BFD_V18.02.parquet",
+      "action": "merge",
+      "total_records": 1,
+      "new_records": 0,
+      "updated_records": 1,
+      "skipped_records": 0,
+      "key_field": "tmdb_id",
+      "sample_keys": [],
+      "fields_updated": [
+        "tmdb_popularity",
+        "tmdb_score",
+        "tmdb_vote_count",
+        "title",
+        "overview"
+      ],
+      "reason": "[DRY RUN] Would merge 1 records (0 new, 1 updates)"
+    }
+  ],
+  "successful_appends": [
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_social_signals_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_social_signals_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_news_events_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_news_events_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_news_events_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_news_events_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_news_events_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_news_events_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_news_events_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_news_events_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_news_events_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_news_events_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_news_events_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_news_events_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_social_signals_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_social_signals_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    },
+    {
+      "target": "/mnt/c/Users/RoyT6/Downloads/Abstract Data/fresh_financial_data_20260115_145853.parquet",
+      "action": "append",
+      "total_records": 1,
+      "new_records": 1,
+      "updated_records": 0,
+      "skipped_records": 0,
+      "key_field": "date",
+      "sample_keys": [],
+      "fields_updated": [
+        "signal_type",
+        "source",
+        "timestamp",
+        "data"
+      ],
+      "reason": "[DRY RUN] Would write 1 signals to fresh_financial_data_20260115_145853.parquet"
+    }
+  ],
+  "errors": [],
+  "data_gains": {
+    "new_titles_in_bfd": 134,
+    "updated_titles_in_bfd": 912,
+    "new_viewership_records": 0,
+    "new_signals": 22,
+    "countries_updated": 130,
+    "platform_changes": 500,
+    "flixpatrol_titles": 600,
+    "total_new_data_points": 656
+  },
+  "recommendations": [
+    "No viewership data captured. Ensure FlixPatrol 'rankings' endpoint is being called."
+  ]
+}

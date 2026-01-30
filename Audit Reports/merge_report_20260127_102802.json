@@ -1,0 +1,30 @@
+{
+  "report_type": "FreshIn Metadata Merge",
+  "version": "V27.72",
+  "timestamp": "2026-01-27T10:28:02.814985",
+  "database": "/mnt/c/Users/RoyT6/Downloads/BFD_META_V27.72.parquet",
+  "statistics": {
+    "database_rows": 514070,
+    "database_columns": 1407,
+    "records_updated": 0,
+    "values_updated": 0,
+    "new_titles_not_in_db": 59
+  },
+  "updates_by_source": {
+    "tmdb": {
+      "records": 0,
+      "values": 0
+    },
+    "disney_plus": {
+      "records": 0,
+      "values": 0
+    },
+    "flixpatrol": {
+      "records": 0,
+      "values": 0
+    }
+  },
+  "updates_by_column": {},
+  "sample_updated_titles": [],
+  "errors": []
+}
