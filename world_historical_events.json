@@ -1,0 +1,6 @@
+{
+  "events": {
+    "error": 404,
+    "message": "{\"message\":\"No events found for the given date\",\"success\":false}\n"
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "the_white_lotus": {
+    "Title": "The White Lotus",
+    "Year": "2021–",
+    "Rated": "TV-MA",
+    "Released": "11 Jul 2021",
+    "Runtime": "N/A",
+    "Genre": "Comedy, Drama",
+    "Director": "N/A",
+    "Writer": "Mike White",
+    "Actors": "Jon Gries, Natasha Rothwell, Jennifer Coolidge",
+    "Plot": "Set in a tropical resort, it follows the exploits of various guests and employees over the span of a week.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 16 Primetime Emmys. 78 wins & 217 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZmM1MGM0MDQtZTAzNy00ZGJkLWI4MDUtNjBmMzdhYjhlM2QwXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.0/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.0",
+    "imdbVotes": "309,418",
+    "imdbID": "tt13406094",
+    "Type": "series",
+    "totalSeasons": "3",
+    "Response": "True"
+  },
+  "severance": {
+    "Title": "Severance",
+    "Year": "2022–",
+    "Rated": "TV-MA",
+    "Released": "18 Feb 2022",
+    "Runtime": "N/A",
+    "Genre": "Drama, Mystery, Sci-Fi",
+    "Director": "N/A",
+    "Writer": "Dan Erickson",
+    "Actors": "Adam Scott, Britt Lower, Zach Cherry",
+    "Plot": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 10 Primetime Emmys. 42 wins & 180 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZDI5YzJhODQtMzQyNy00YWNmLWIxMjUtNDBjNjA5YWRjMzExXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.7/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.7",
+    "imdbVotes": "364,704",
+    "imdbID": "tt11280740",
+    "Type": "series",
+    "totalSeasons": "2",
+    "Response": "True"
+  },
+  "the_last_of_us": {
+    "Title": "The Last of Us",
+    "Year": "2023–",
+    "Rated": "TV-MA",
+    "Released": "15 Jan 2023",
+    "Runtime": "18S min",
+    "Genre": "Action, Adventure, Drama",
+    "Director": "N/A",
+    "Writer": "Neil Druckmann, Craig Mazin",
+    "Actors": "Bella Ramsey, Pedro Pascal, Gabriel Luna",
+    "Plot": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the U.S. and depend on each other for survival.",
+    "Language": "English, Indonesian",
+    "Country": "Canada, United States",
+    "Awards": "Won 9 Primetime Emmys. 103 wins & 187 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYWI3ODJlMzktY2U5NC00ZjdlLWE1MGItNWQxZDk3NWNjN2RhXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.5/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.5",
+    "imdbVotes": "715,060",
+    "imdbID": "tt3581920",
+    "Type": "series",
+    "totalSeasons": "2",
+    "Response": "True"
+  },
+  "wednesday": {
+    "Title": "Wednesday",
+    "Year": "2022–",
+    "Rated": "TV-14",
+    "Released": "23 Nov 2022",
+    "Runtime": "N/A",
+    "Genre": "Comedy, Crime, Fantasy",
+    "Director": "N/A",
+    "Writer": "Alfred Gough, Miles Millar",
+    "Actors": "Jenna Ortega, Hunter Doohan, Emma Myers",
+    "Plot": "Follows Wednesday Addams' years as a student, when she attempts to master her emerging psychic ability, thwart a killing spree, and solve the mystery that embroiled her parents.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 4 Primetime Emmys. 23 wins & 65 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMDE1NjNmZjgtZTg0OC00NjkxLWEzYzItMDNkMTc3YjgxZWQyXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.0/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.0",
+    "imdbVotes": "480,900",
+    "imdbID": "tt13443470",
+    "Type": "series",
+    "totalSeasons": "3",
+    "Response": "True"
+  },
+  "squid_game": {
+    "Title": "Squid Game",
+    "Year": "2021–2025",
+    "Rated": "TV-MA",
+    "Released": "17 Sep 2021",
+    "Runtime": "N/A",
+    "Genre": "Action, Crime, Drama",
+    "Director": "N/A",
+    "Writer": "Hwang Dong-hyuk",
+    "Actors": "Lee Jung-jae, Halley Kim, Wi Ha-joon",
+    "Plot": "A story of people who fail at life for various reasons, but suddenly receive a mysterious invitation to participate in a survival game to win more than 38 million US dollars. The game takes place at an isolated island and the participants are locked up until there is a final winner. The story will incorporate popular children's games from the 1970s and 1980s of Korea, such as squid game, literal translation of its Korean name, which is a type of tag where offense and defense use a squid-shaped board drawn in the dirt.",
+    "Language": "Korean, English, Urdu",
+    "Country": "South Korea",
+    "Awards": "Won 6 Primetime Emmys. 54 wins & 89 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.0/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.0",
+    "imdbVotes": "735,369",
+    "imdbID": "tt10919420",
+    "Type": "series",
+    "totalSeasons": "3",
+    "Response": "True"
+  },
+  "stranger_things": {
+    "Title": "Stranger Things",
+    "Year": "2016–2025",
+    "Rated": "TV-MA",
+    "Released": "15 Jul 2016",
+    "Runtime": "51 min",
+    "Genre": "Drama, Fantasy, Horror",
+    "Director": "N/A",
+    "Writer": "Matt Duffer, Ross Duffer",
+    "Actors": "Millie Bobby Brown, Finn Wolfhard, Winona Ryder",
+    "Plot": "In a small town where everyone knows everyone, a peculiar incident starts a chain of events that leads to the disappearance of a child, which begins to tear at the fabric of an otherwise peaceful community. Dark government agencies and seemingly malevolent supernatural forces converge on the town, while a few of the locals begin to understand that there's more going on than meets the eye.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 12 Primetime Emmys. 118 wins & 320 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNjRiMTA4NWUtNmE0ZC00NGM0LWJhMDUtZWIzMDM5ZDIzNTg3XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.6/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.6",
+    "imdbVotes": "1,566,461",
+    "imdbID": "tt4574334",
+    "Type": "series",
+    "totalSeasons": "5",
+    "Response": "True"
+  },
+  "house_of_the_dragon": {
+    "Title": "House of the Dragon",
+    "Year": "2022–",
+    "Rated": "TV-MA",
+    "Released": "21 Aug 2022",
+    "Runtime": "N/A",
+    "Genre": "Action, Adventure, Drama",
+    "Director": "N/A",
+    "Writer": "Ryan J. Condal, George R.R. Martin",
+    "Actors": "Matt Smith, Emma D'Arcy, Olivia Cooke",
+    "Plot": "An internal succession war within House Targaryen at the height of its power, 172 years before the birth of Daenerys Targaryen.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 2 Primetime Emmys. 22 wins & 97 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BM2QzMGVkNjUtN2Y4Yi00ODMwLTg3YzktYzUxYjJlNjFjNDY1XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.3/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.3",
+    "imdbVotes": "499,071",
+    "imdbID": "tt11198330",
+    "Type": "series",
+    "totalSeasons": "4",
+    "Response": "True"
+  },
+  "the_bear": {
+    "Title": "The Bear",
+    "Year": "2022–",
+    "Rated": "TV-MA",
+    "Released": "23 Jun 2022",
+    "Runtime": "N/A",
+    "Genre": "Comedy, Drama",
+    "Director": "N/A",
+    "Writer": "Christopher Storer",
+    "Actors": "Jeremy Allen White, Ebon Moss-Bachrach, Ayo Edebiri",
+    "Plot": "A young chef from the fine dining world returns to Chicago to run his family's sandwich shop.",
+    "Language": "English, Spanish",
+    "Country": "United States",
+    "Awards": "Won 21 Primetime Emmys. 115 wins & 200 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYWZhNDZiMzAtZmZlYS00MWFmLWE2MWEtNDAxZTZiN2U4Y2U2XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.5/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.5",
+    "imdbVotes": "299,940",
+    "imdbID": "tt14452776",
+    "Type": "series",
+    "totalSeasons": "5",
+    "Response": "True"
+  },
+  "shogun": {
+    "Title": "Shogun",
+    "Year": "2024–2026",
+    "Rated": "TV-MA",
+    "Released": "27 Feb 2024",
+    "Runtime": "N/A",
+    "Genre": "Action, Adventure, Drama",
+    "Director": "N/A",
+    "Writer": "James Clavell (based on the novel by)",
+    "Actors": "Cosmo Jarvis, Hiroyuki Sanada, Anna Sawai",
+    "Plot": "Set in the 17th Century, the story is told from the perspective of British hero John Blackthorne, a sailor who rises from outsider to samurai, while being used as a pawn in Japanese leader Toranaga's struggle to reach the top of the ruling chain, or Shogun.",
+    "Language": "Japanese, English",
+    "Country": "United States",
+    "Awards": "Won 18 Primetime Emmys. 91 wins & 77 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZmJkMDRjYzEtMWI3Ny00OWE3LWJlNTItMGQ1MTQzMzc3NDY5XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.6/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.6",
+    "imdbVotes": "236,749",
+    "imdbID": "tt2788316",
+    "Type": "series",
+    "totalSeasons": "3",
+    "Response": "True"
+  },
+  "baby_reindeer": {
+    "Title": "Baby Reindeer",
+    "Year": "2024",
+    "Rated": "TV-MA",
+    "Released": "11 Apr 2024",
+    "Runtime": "N/A",
+    "Genre": "Biography, Comedy, Drama",
+    "Director": "N/A",
+    "Writer": "Richard Gadd",
+    "Actors": "Richard Gadd, Jessica Gunning, Nava Mau",
+    "Plot": "The story follows Donny's warped relationship with a female stalker and the impact it has on him as he is ultimately forced to face a deep, dark buried trauma.",
+    "Language": "English",
+    "Country": "United Kingdom, United States",
+    "Awards": "Won 6 Primetime Emmys. 40 wins & 66 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzlmY2E1OTUtMjEzZi00Y2YxLWI5NmMtZmZhOWZkMjIzMDJiXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.7/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.7",
+    "imdbVotes": "186,248",
+    "imdbID": "tt13649112",
+    "Type": "series",
+    "totalSeasons": "1",
+    "Response": "True"
+  }
+}

@@ -156,3 +156,31 @@
 [2026-01-29 20:09:16] [INFO] Building IMDb ID index...
 [2026-01-29 20:10:29] [INFO] IMDb index: 495,311 entries
 [2026-01-29 20:10:29] [INFO] Building TMDB ID index...
+[2026-01-30 11:51:27] [INFO] ======================================================================
+[2026-01-30 11:51:27] [INFO]     FRESHIN METADATA MERGER V27.72
+[2026-01-30 11:51:27] [INFO]     Schema V27.66 Compliant - NO NEW COLUMNS
+[2026-01-30 11:51:27] [INFO] ======================================================================
+[2026-01-30 11:51:27] [INFO] Loaded Translation Mapping Guide: 553 aliases
+[2026-01-30 11:51:27] [INFO] Loaded Alias Guide: 93 canonical columns
+[2026-01-30 11:51:27] [INFO] ============================================================
+[2026-01-30 11:51:27] [INFO] LOADING FRESHIN DATA SOURCES
+[2026-01-30 11:51:27] [INFO] ============================================================
+[2026-01-30 11:51:27] [INFO] [TMDB] Loaded 170 unique records
+[2026-01-30 11:51:27] [INFO] [FlixPatrol] Loaded 300 unique records
+[2026-01-30 11:51:27] [INFO] [Disney+] Loaded 17 unique records
+[2026-01-30 11:51:27] [ERROR] Error loading streaming_availability_20260130_072006.json: 'str' object does not support item assignment
+[2026-01-30 11:51:27] [INFO] [Streaming] Loaded 0 records
+[2026-01-30 11:51:27] [INFO]   tmdb: 170 records
+[2026-01-30 11:51:27] [INFO]   flixpatrol: 300 records
+[2026-01-30 11:51:27] [INFO]   disney_plus: 17 records
+[2026-01-30 11:51:27] [INFO]   imdb: 0 records
+[2026-01-30 11:51:27] [INFO]   streaming_availability: 0 records
+[2026-01-30 11:51:27] [INFO] ============================================================
+[2026-01-30 11:51:27] [INFO] LOADING BFD_META DATABASE
+[2026-01-30 11:51:27] [INFO] ============================================================
+[2026-01-30 11:51:27] [INFO] Creating backup: /mnt/c/Users/RoyT6/Downloads/BFD_VIEWS_V27.75.parquet.backup
+[2026-01-30 11:52:30] [INFO] Loading: /mnt/c/Users/RoyT6/Downloads/BFD_VIEWS_V27.75.parquet
+[2026-01-30 11:53:08] [INFO] Loaded: 559,872 rows x 1,711 columns
+[2026-01-30 11:53:08] [INFO] Building IMDb ID index...
+[2026-01-30 11:54:19] [INFO] IMDb index: 495,312 entries
+[2026-01-30 11:54:19] [INFO] Building TMDB ID index...

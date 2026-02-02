@@ -1,0 +1,10 @@
+{
+  "catalog": {
+    "error": 404,
+    "message": "{\"message\":\"API doesn't exists\"}"
+  },
+  "random": {
+    "error": 429,
+    "message": "{\"message\":\"Too many requests\"}"
+  }
+}

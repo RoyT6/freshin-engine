@@ -1,0 +1,22 @@
+{
+  "popular_movies": {
+    "error": 400,
+    "message": "{\"message\":\"Invalid title ID parameter\",\"error\":{\"issues\":[{\"validation\":\"regex\",\"code\":\"invalid_string\",\"message\":\"Invalid IMDb title ID\",\"path\":[\"id\"]}],\"name\":\"ZodError\"}}"
+  },
+  "popular_tv": {
+    "error": 400,
+    "message": "{\"message\":\"Invalid title ID parameter\",\"error\":{\"issues\":[{\"validation\":\"regex\",\"code\":\"invalid_string\",\"message\":\"Invalid IMDb title ID\",\"path\":[\"id\"]}],\"name\":\"ZodError\"}}"
+  },
+  "genres": {
+    "error": 400,
+    "message": "{\"message\":\"Invalid title ID parameter\",\"error\":{\"issues\":[{\"validation\":\"regex\",\"code\":\"invalid_string\",\"message\":\"Invalid IMDb title ID\",\"path\":[\"id\"]}],\"name\":\"ZodError\"}}"
+  },
+  "title_types": {
+    "error": 400,
+    "message": "{\"message\":\"Invalid title ID parameter\",\"error\":{\"issues\":[{\"validation\":\"regex\",\"code\":\"invalid_string\",\"message\":\"Invalid IMDb title ID\",\"path\":[\"id\"]}],\"name\":\"ZodError\"}}"
+  },
+  "recent_releases": {
+    "error": 400,
+    "message": "{\"message\":\"Invalid title ID parameter\",\"error\":{\"issues\":[{\"validation\":\"regex\",\"code\":\"invalid_string\",\"message\":\"Invalid IMDb title ID\",\"path\":[\"id\"]}],\"name\":\"ZodError\"}}"
+  }
+}

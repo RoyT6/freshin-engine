@@ -1,7 +1,7 @@
 """
-FreshIn Metadata Merger for BFD_META V27.72
+FreshIn Metadata Merger for BFD_META V27.75
 ============================================
-Schema V27.66 Compliant - NO NEW COLUMNS
+Schema V28.00 Compliant - NO NEW COLUMNS
 
 Merges NEW metadata (only) from FreshIn sources into the master BFD_META database.
 - Uses Translation Mapping Guide and Alias Guide for column header normalization
@@ -51,8 +51,8 @@ def get_base_path() -> Path:
         return windows_path
 
 BASE_DIR = get_base_path()
-FRESHIN_DIR = BASE_DIR / "FreshIn"
-SCHEMA_DIR = BASE_DIR / "Schema"
+FRESHIN_DIR = BASE_DIR / "FreshIn Engine"
+SCHEMA_DIR = BASE_DIR / "Schema Engine" / "The Kit"
 
 # Database paths - auto-detect latest version
 def get_latest_bfd_path() -> Path:
@@ -66,17 +66,23 @@ def get_latest_bfd_path() -> Path:
     for pattern in patterns:
         all_files.extend(glob.glob(str(pattern)))
     if all_files:
-        # Sort by modification time, newest first
-        all_files.sort(key=lambda x: Path(x).stat().st_mtime, reverse=True)
+        # Sort by version number (extract V##.## from filename)
+        import re
+        def get_version(f):
+            match = re.search(r'V(\d+)\.(\d+)', f)
+            if match:
+                return (int(match.group(1)), int(match.group(2)))
+            return (0, 0)
+        all_files.sort(key=get_version, reverse=True)
         return Path(all_files[0])
     # Fallback
-    return BASE_DIR / "BFD_VIEWS_V27.76.parquet"
+    return BASE_DIR / "BFD_VIEWS_V27.75.parquet"
 
 BFD_META_PATH = get_latest_bfd_path()
 BFD_META_BACKUP = BFD_META_PATH.with_suffix('.parquet.backup')
 
 # Schema/mapping files
-SCHEMA_PATH = SCHEMA_DIR / "SCHEMA_V27.66.json"
+SCHEMA_PATH = SCHEMA_DIR / "SCHEMA_V28.00.json"
 TRANSLATION_GUIDE_PATH = SCHEMA_DIR / "Translation Mapping Guide.json"
 ALIAS_GUIDE_PATH = SCHEMA_DIR / "Aliase Guide.json"
 

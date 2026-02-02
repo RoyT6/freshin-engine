@@ -1,0 +1,10 @@
+{
+  "football": {
+    "error": 400,
+    "message": "{\"message\":\"limit must not be greater than 40\",\"statusCode\":400}"
+  },
+  "basketball": {
+    "error": 400,
+    "message": "{\"message\":\"limit must not be greater than 40\",\"statusCode\":400}"
+  }
+}

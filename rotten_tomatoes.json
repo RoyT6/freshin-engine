@@ -1,0 +1,14 @@
+{
+  "streaming_tv": {
+    "error": 403,
+    "message": "{\"message\":\"You are not subscribed to this API.\"}"
+  },
+  "movies": {
+    "error": 429,
+    "message": "{\"message\":\"Too many requests\"}"
+  },
+  "netflix_top100": {
+    "error": 429,
+    "message": "{\"message\":\"Too many requests\"}"
+  }
+}

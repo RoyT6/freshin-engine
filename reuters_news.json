@@ -1,0 +1,18 @@
+{
+  "articles_2025-12-31": {
+    "error": 429,
+    "message": "{\"message\":\"You have exceeded the MONTHLY quota for Requests on your current plan, BASIC. Upgrade your plan at https:\\/\\/rapidapi.com\\/makingdatameaningful\\/api\\/reuters-business-and-financial-news\"}"
+  },
+  "articles_2026-01-01": {
+    "error": 429,
+    "message": "{\"message\":\"You have exceeded the MONTHLY quota for Requests on your current plan, BASIC. Upgrade your plan at https:\\/\\/rapidapi.com\\/makingdatameaningful\\/api\\/reuters-business-and-financial-news\"}"
+  },
+  "articles_2026-01-15": {
+    "error": 429,
+    "message": "{\"message\":\"You have exceeded the MONTHLY quota for Requests on your current plan, BASIC. Upgrade your plan at https:\\/\\/rapidapi.com\\/makingdatameaningful\\/api\\/reuters-business-and-financial-news\"}"
+  },
+  "articles_2026-02-01": {
+    "error": 429,
+    "message": "{\"message\":\"You have exceeded the MONTHLY quota for Requests on your current plan, BASIC. Upgrade your plan at https:\\/\\/rapidapi.com\\/makingdatameaningful\\/api\\/reuters-business-and-financial-news\"}"
+  }
+}
