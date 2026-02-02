@@ -40,16 +40,37 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 os.environ['CUDF_SPILL'] = 'on'
 
 # =============================================================================
-# PATH CONFIGURATION
+# PATH CONFIGURATION (platform-aware)
 # =============================================================================
+import platform as _platform
+
+def _get_base_path() -> Path:
+    """Get base path based on platform (Windows vs WSL)."""
+    if _platform.system() == 'Windows':
+        return Path(r'C:\Users\RoyT6\Downloads')
+    else:
+        return Path('/mnt/c/Users/RoyT6/Downloads')
+
+def _find_latest_file(base: Path, patterns: list) -> Path:
+    """Find the latest file matching any of the patterns."""
+    all_files = []
+    for pattern in patterns:
+        all_files.extend(list(base.glob(pattern)))
+    if all_files:
+        return max(all_files, key=lambda p: p.stat().st_mtime)
+    return None
+
 class Paths:
-    BASE = Path("/mnt/c/Users/RoyT6/Downloads")
-    FRESH_IN = BASE / "Fresh In!"
-    BFD = BASE / "BFD_V27.54.parquet"
-    STAR_SCHEMA = BASE / "BFD_Star_Schema_V27.54.parquet"
-    VIEWS_TRAINING = BASE / "Views Training Data"
+    BASE = _get_base_path()
+    FRESH_IN = BASE / "FreshIn Engine"
+    # Dynamic BFD/Star Schema detection
+    _bfd = _find_latest_file(BASE, ["BFD_V*.parquet", "Cranberry_BFD_V*.parquet"])
+    _star = _find_latest_file(BASE, ["BFD_Star_Schema_V*.parquet", "Cranberry_Star_Schema_V*.parquet"])
+    BFD = _bfd if _bfd else BASE / "BFD_V27.73.parquet"
+    STAR_SCHEMA = _star if _star else BASE / "BFD_Star_Schema_V27.73.parquet"
+    VIEWS_TRAINING = BASE / "Views TRaining Data"
     ABSTRACT_DATA = BASE / "Abstract Data"
-    COMPONENTS = BASE / "Components"
+    COMPONENTS = BASE / "Components Engine"
     ARCHIVE = FRESH_IN / "processed"
     ENGINE_LOG = FRESH_IN / "freshin_engine.log"
     ENGINE_STATE = FRESH_IN / "freshin_engine_state.json"
@@ -327,7 +348,7 @@ class DatabaseWriters:
                 return numeric_id
             try:
                 numeric_id = int(numeric_id)
-            except:
+            except (ValueError, TypeError):
                 return numeric_id
         if isinstance(numeric_id, (int, float)):
             return f"tt{int(numeric_id):07d}"
@@ -495,7 +516,7 @@ class DatabaseWriters:
             try:
                 with open(Paths.PLATFORM_AVAIL_MASTER, 'r') as f:
                     master_data = json.load(f)
-            except:
+            except (OSError, json.JSONDecodeError):
                 pass
 
         # Merge new mappings
@@ -923,7 +944,7 @@ class VDBFreshInEngine:
                 with open(Paths.ENGINE_STATE, 'r') as f:
                     state = json.load(f)
                     self.processed_files = set(state.get('processed_files', []))
-            except:
+            except (OSError, json.JSONDecodeError, KeyError):
                 pass
 
     def _save_state(self):
@@ -931,7 +952,7 @@ class VDBFreshInEngine:
             state = {'processed_files': list(self.processed_files), 'last_run': datetime.now().isoformat()}
             with open(Paths.ENGINE_STATE, 'w') as f:
                 json.dump(state, f, indent=2)
-        except:
+        except (OSError, TypeError):
             pass
 
     def discover_fresh_files(self, date_filter: str = None) -> List[Path]:
@@ -944,7 +965,7 @@ class VDBFreshInEngine:
             try:
                 found = list(Paths.FRESH_IN.glob(pattern))
                 files.extend(found)
-            except:
+            except (OSError, ValueError):
                 pass
         if date_filter:
             files = [f for f in files if date_filter in f.name]
